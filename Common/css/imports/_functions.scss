@@ -1,22 +1,16 @@
-//robotomedium
+$seogeui-regular: "SegoeUI";
+$seogeui-semibold: "SegoeUI-Semibold";
+$layout-width: 1240px;
 
-//$blue: #77aed9;
-//$grey: #333333;
-//
-//$lato-regular: "Lato-Regular";
-//$lato-bold: "Lato-Bold";
-
-$layout-width: 1100px;
-
-//181818
 
 ////////////mixins////////////////
 @mixin overlay($z-index, $isFixed) {
-  @if ($isFixed =true) {
-    position: fixed;
+  @if ($isFixed !=true) {
+    position: absolute;
 
   } @else {
-    position: absolute;
+    position: fixed;
+
   }
   width: 100%;
   height: 100%;

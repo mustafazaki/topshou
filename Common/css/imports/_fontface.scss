@@ -1,6 +1,14 @@
 @import "../../bourbon/_bourbon";
 
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/segoeui.woff') format('woff'),  url('../fonts/segoeui.svg#segoeui') format('svg');
+}
 
+@font-face {
+  font-family: 'SegoeUI-Semibold';
+  src:  url('../fonts/seguisb.woff') format('woff'),url('../fonts/seguisb.svg#seguisb') format('svg');
+}
 //@include font-face('Lato-Regular',"../fonts/latoregular");
 
 

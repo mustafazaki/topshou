@@ -16,7 +16,10 @@
 //
 //}
 body {
-  font: normal 14px;
+  font: 14px $seogeui-regular;
+
+
+  color: #b1b2b2;
 }
 
 
@@ -26,7 +29,7 @@ body.pushy-active {
 
 .center {
   margin: 0 auto;
-  width: 1015px;
+  width: 1240px;
 }
 
 
