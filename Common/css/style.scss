@@ -1,0 +1,78 @@
+@import "../bourbon/bourbon";
+@import "imports/_functions";
+@import "imports/_fontface";
+@import "imports/_reset";
+@import "imports/_footer";
+@import "imports/_header";
+@import "imports/_btn";
+
+
+
+
+//
+//$percentage: (0, 20, 40, 60, 80, 100);
+
+//@each $value in $percentage {
+//
+//}
+body {
+  font: normal 14px;
+}
+
+
+body.pushy-active {
+  overflow-x: hidden !important;
+}
+
+.center {
+  margin: 0 auto;
+  width: 1015px;
+}
+
+
+
+.wrapper {
+  height: 100%;
+
+
+}
+
+.mobile {
+  display: none;
+}
+
+
+
+//h1 {
+//  font: normal 46px arial;
+//
+//}
+//
+//h3 {
+//  font: normal 36px arial;
+//
+//}
+//
+//
+//h4 {
+//  font: normal 24px arial;
+//
+//}
+//
+//
+//h5 {
+//  float: left;
+//
+//}
+
+p {
+
+//  font: normal 20px arial;
+//  color: #000000;
+}
+
+.transition {
+  @include transition(all 0.2s cubic-bezier(.17, .48, .89, .6));
+
+}
+@import "imports/_responsive";
