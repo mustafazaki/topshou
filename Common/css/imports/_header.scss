@@ -1,37 +1,83 @@
 @import "../../bourbon/bourbon";
 @import "_functions";
 
+header {
 
-nav{
+  height: 128px;
 
-  ul {
-    float: right;
-    li
-    {
-      font-size: 18px;
-      float: left;
-      padding: 0 10px;
-      border-right: 1px solid;
+  nav {
+
+    ul {
+      float: right;
+      margin-top: 65px;
+
+      li {
+        font-size: 18px;
+        float: left;
+        position: relative;
+        padding: 0 20px;
+        &:after {
+          @include content(1px, 15px, 6px, 0, "", "");
+          background: $grey;
+        }
+
+        &:last-child {
+          padding-right: 0;
+
+          &:after {
+            display: none;
+          }
+        }
+      }
     }
+
   }
+
 }
 
-.banner{
+.banner {
+  height: 746px;
+  background: #000;
 
-  .logo{
+  .left-col {
     float: right;
-    clear: right;
+  }
 
+  .logo, .player, .btn-group {
+  }
+  .logo {
+    margin-top: 20px;
   }
   .player {
-    margin: 60px 0 30px;
-    float: right;
-    clear: right;
+    margin: 100px 0 60px;
+    img, iframe {
+      display: block;
+      margin: 0 auto;
 
+    }
   }
-  .btn-group{
-    float: right;
-    clear: right;
+  .btn-group {
+    width: 100%;
+    text-align: center;
+
+    a {
+      margin: 0 5px;
+      span {
+        display: inline-block;
+        background-position: -14px 0;
+        @include widthHeight(12px, 21px);
+        margin: 0 5px;
+
+      }
+
+      &:last-child span{
+        background-position: 0 0;
+        @include widthHeight(11px, 22px);
+      }
+
+
+
+    }
   }
-  
+
 }

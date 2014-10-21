@@ -1,27 +1,74 @@
 @import "../../bourbon/bourbon";
 @import "functions";
 
-.grids{
+.grid-section {
 
-
-  h2{
+  h2 {
     width: 100%;
     text-align: center;
     position: relative;
+    color: #000;
+    font-size: 30px;
+    margin: 70px 0;
 
-
-    &:after{
-      @include content(100px, 1px, 15px, 33%, "", "");
-      background: red;
-
+    &:after {
+      @include content(100px, 1px, 21px, 30%, "", "");
+      background: $grey;
     }
     &:before {
-      @include content(100px, 1px, 15px, "", "", 33%);
-      background: red;
+      @include content(100px, 1px, 21px, "", "", 30%);
+      background: $grey;
+    }
+ }
 
+.grid-cont{
+  width: 105%;
+
+}
+
+  .grid {
+    width: 240px;
+    border-radius: 5px;
+    @extend .box-sizing;
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 7px 7px 25px;
+    margin: 0 5px 10px;
+    img{
+      width: 100%;
     }
 
-    
+  .detail{
+
+    li{
+      float: left;
+      position: relative;
+      padding-left: 15px;
+
+      margin: 22px 10px 0 0;
+      cursor: pointer;
+      &:after {
+        @include content(14px, 13px, 4px, "", "", 0);
+        background: url(../images/sprite.png) -145px -15px;
+      }
+    &.comment{
+      &:after{
+         background-position: -145px -15px;
+      }
+    }
+
+      &.like {
+
+        &:after {
+          background-position: -145px 0px;
+        }
+      }
+    }
+  }
+  }
+
+  .btn-group{
+    text-align: center;
+    margin: 40px 0 15px;
 
   }
 }

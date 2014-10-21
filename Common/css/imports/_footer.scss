@@ -1,3 +1,41 @@
 @import "../../bourbon/bourbon";
 @import "_functions";
 
+footer {
+  background: $light-grey;
+  margin-top: 45px;
+  p {
+
+    float: left;
+    font-size: 15px;
+    margin-top: 48px;
+
+
+  }
+
+  .social-icons {
+    float: left;
+    margin:40px 0 0 15px;
+
+
+    a {
+      display: inline-block;
+      @include widthHeight(38px, 38px);
+      margin-right: 10px;
+      &.tw {
+        background-position: -31px 0;
+      }
+      &.fb {
+        background-position: -68px 0;
+      }
+      &.gp {
+        background-position: -107px 0;
+      }
+    }
+  }
+
+  .logo {
+    float: right;
+
+  }
+}

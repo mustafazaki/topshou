@@ -8,6 +8,7 @@
         isTablet: false,
         resizeTimeoutID: null,
         $body: $("body"),
+        masanoryCont:null,
 
         detectDevice: function () {
             (function (a) {
@@ -73,12 +74,17 @@
         },
 
         initMasanory:function  (){
-            var $container = $('.grid-cont');
-// initialize
-            $container.masonry({
-                columnWidth: 80,
-                itemSelector: '.grid'
+            $(window).load(function(){
+                app.masanoryCont = $('.grid-cont');
+                app.masanoryCont.masonry({
+//                    columnWidth: 80,
+                    itemSelector: '.grid'
+                });
             });
+
+
+
+
         },
 
 
