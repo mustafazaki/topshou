@@ -1,13 +1,5 @@
 @import "../bourbon/bourbon";
 @import "imports/_functions";
-@import "imports/_fontface";
-@import "imports/_reset";
-@import "imports/_footer";
-@import "imports/_header";
-@import "imports/_btn";
-
-
-
 
 //
 //$percentage: (0, 20, 40, 60, 80, 100);
@@ -18,10 +10,8 @@
 body {
   font: 14px $seogeui-regular;
 
-
   color: #b1b2b2;
 }
-
 
 body.pushy-active {
   overflow-x: hidden !important;
@@ -32,19 +22,14 @@ body.pushy-active {
   width: 1240px;
 }
 
-
-
 .wrapper {
   height: 100%;
-
 
 }
 
 .mobile {
   display: none;
 }
-
-
 
 //h1 {
 //  font: normal 46px arial;
@@ -70,12 +55,26 @@ body.pushy-active {
 
 p {
 
-//  font: normal 20px arial;
-//  color: #000000;
+  //  font: normal 20px arial;
+  //  color: #000000;
 }
 
 .transition {
   @include transition(all 0.2s cubic-bezier(.17, .48, .89, .6));
 
 }
+
+section, header,footer {
+  float: left;
+  width: 100%
+}
+
+.btn{}
+
+@import "imports/_fontface";
+@import "imports/_reset";
+@import "imports/_footer";
+@import "imports/_header";
+@import "imports/_btn";
+@import "imports/_grids";
 @import "imports/_responsive";

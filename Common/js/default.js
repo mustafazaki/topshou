@@ -72,6 +72,17 @@
             return false;
         },
 
+        initMasanory:function  (){
+            var $container = $('.grid-cont');
+// initialize
+            $container.masonry({
+                columnWidth: 80,
+                itemSelector: '.grid'
+            });
+        },
+
+
+
 
         init: function () {
             app.detectDevice();
@@ -79,6 +90,7 @@
             app.resizeListner();
             app.addEventListner();
             app.msIeVersion();
+            app.initMasanory();
         }
     };
 

@@ -1,0 +1,27 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.grids{
+
+
+  h2{
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+
+    &:after{
+      @include content(100px, 1px, 15px, 33%, "", "");
+      background: red;
+
+    }
+    &:before {
+      @include content(100px, 1px, 15px, "", "", 33%);
+      background: red;
+
+    }
+
+    
+
+  }
+}

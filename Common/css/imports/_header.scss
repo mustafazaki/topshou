@@ -1,3 +1,37 @@
 @import "../../bourbon/bourbon";
 @import "_functions";
 
+
+nav{
+
+  ul {
+    float: right;
+    li
+    {
+      font-size: 18px;
+      float: left;
+      padding: 0 10px;
+      border-right: 1px solid;
+    }
+  }
+}
+
+.banner{
+
+  .logo{
+    float: right;
+    clear: right;
+
+  }
+  .player {
+    margin: 60px 0 30px;
+    float: right;
+    clear: right;
+
+  }
+  .btn-group{
+    float: right;
+    clear: right;
+  }
+  
+}
