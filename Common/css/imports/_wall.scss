@@ -1,0 +1,236 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.cover {
+
+  background: #88c5da;
+  height: 285px;
+  margin: -19px 0 100px;
+  .center {
+    position: relative;
+    height: 100%;
+
+  }
+
+  .thumb {
+    float: left;
+    @include widthHeight(260px, 260px);
+    background: #ffffff;
+    border-radius: 5px;
+    border: 5px solid #fff;
+
+    @extend .box-sizing;
+
+    @include absolute("", "", -70px, 0);
+    img {
+      @include verticalCenter();
+    }
+  }
+
+  .name {
+    font: 35px $seogeui-semibold;
+    color: #fff;
+    @include absolute("", "", 20px, 300px);
+    padding-right: 100px;
+
+  }
+  .about {
+
+    @include widthHeight(73px, 71px);
+    margin-bottom: -20px;
+
+    background-position: -296px -41px;
+
+  }
+
+}
+
+.profile-menu {
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 50px 10px;
+
+    a {
+      @include widthHeight(142px, 142px);
+      position: relative;
+      background-color: $grey;
+
+      &.active {
+        background-color: $purple;
+
+      }
+      &:after {
+        background-image: url(../images/sprite.png);
+      }
+
+    }
+    span {
+      @include absolute("", "", 36px, 0);
+      width: 100%;
+      text-align: center;
+    }
+
+    .wall:after {
+      @include content(58px, 45px, 28px, "", "", 50%);
+      margin-left: -29px;
+      background-position: 0 -41px;
+    }
+    .wardrobe:after {
+      @include content(61px, 53px, 28px, "", "", 50%);
+      margin-left: -30.5px;
+      background-position: -61px -41px;
+    }
+    .friends:after {
+      @include content(56px, 52px, 28px, "", "", 50%);
+      margin-left: -28px;
+      background-position: -124px -41px;
+    }
+    .market:after {
+      @include content(53px, 56px, 28px, "", "", 50%);
+      margin-left: -29px;
+      background-position: -183 -41px;
+    }
+    .shop:after {
+      @include content(50px, 50px, 28px, "", "", 50%);
+      margin-left: -25px;
+      background-position: -238px -41px;
+
+    }
+  }
+
+}
+
+.profile-detail {
+
+
+  .left-col {
+    width: percentage(550px/$layout-width);
+    margin-left: percentage(120px/$layout-width);
+
+  }
+  .share-post {
+    background: #f6f7f8;
+    border: 1px solid $grey;
+    font-family: $seogeui-semibold;
+    color: #737272;
+
+    .head {
+      font-size: 18px;
+      padding: 15px 0 20px 25px;
+      border-bottom: 1px solid $grey;
+    }
+
+    textarea {
+      width: 100%;
+      height: 75px;
+      border: none;
+      outline: none;
+
+      padding: 10px 25px;
+      resize: none;
+
+    }
+
+    .foot {
+      padding: 20px 30px 20px 30px;
+      border-top: 1px solid $grey;
+    }
+    .btn {
+      font: 15px $seogeui-regular;
+
+      padding: 5px 24px;
+
+    }
+
+  }
+
+  .post-detail {
+    margin-top: 55px;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid $grey;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    @extend .box-sizing;
+
+    padding: 10px 20px 70px;
+
+    h4 {
+      width: 80%;
+      color: #737272;
+      margin-bottom: 40px;
+      font-family: $seogeui-semibold;
+      small {
+        display: block;
+      }
+    }
+    span {
+      color: #737272;
+      font: 18px $seogeui-semibold;
+      @include absolute(20px, 20px, "", "");
+
+      cursor: pointer;
+
+    }
+.bx-wrapper{
+    .bx-next, .bx-prev {
+      @include widthHeight(40px, 40px);
+      background: $purple;
+      color: #fff;
+      display: block;
+      font: 20px/36px $seogeui-semibold;
+      text-align: center;
+      @include absolute(50%, 20px, "", "");
+      margin-top: -10px;
+    }
+    .bx-prev {
+      left: 20px;
+    }
+  img{
+    max-width: 100%;
+  }
+
+}
+
+  }
+
+  .right-col {
+    width: percentage(365px/$layout-width);
+    margin-right: percentage(115px/$layout-width);
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

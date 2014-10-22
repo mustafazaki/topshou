@@ -58,6 +58,11 @@ section, header, footer {
   background: url(../images/sprite.png) 0 0 no-repeat;
 }
 
+span.sprite,a.sprite {
+  display: inline-block;
+}
+
+
 .btn {
   background: #4b4e4f;
   background: $purple;
@@ -70,9 +75,26 @@ section, header, footer {
   background: #4b4e4f;
 }
 
+.btn-round{
+  border-radius: 100%;
+  color: #fff;
+  font: 16px $seogeui-semibold;
+  display: inline-block;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 
 @import "imports/_footer";
+@import "imports/_wall";
 @import "imports/_header";
+@import "imports/_banner";
 @import "imports/_btn";
 @import "imports/_grids";
 @import "imports/_responsive";

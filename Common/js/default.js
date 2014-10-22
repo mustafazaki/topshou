@@ -101,6 +101,18 @@
 
         },
 
+        initBxSlider: function () {
+            //bt-menu-open
+           $(".post-slider").bxSlider({
+               pager:false,
+               nextText:">",
+               prevText:"<",
+               adaptiveHeight:true
+
+
+           })
+
+        },
         init: function () {
             app.detectDevice();
             app.setCssOfElements();
@@ -109,6 +121,7 @@
             app.msIeVersion();
             app.initMasanory();
             app.mobileMenu();
+            app.initBxSlider();
         }
     };
 
