@@ -22,7 +22,8 @@ body.pushy-active {
 
 .center {
   margin: 0 auto;
-  width: 1240px;
+  max-width: 1240px;
+  width: 100%;
 }
 
 .wrapper {

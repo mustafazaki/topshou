@@ -8,7 +8,7 @@
         isTablet: false,
         resizeTimeoutID: null,
         $body: $("body"),
-        masanoryCont:null,
+        masanoryCont: null,
 
         detectDevice: function () {
             (function (a) {
@@ -73,8 +73,8 @@
             return false;
         },
 
-        initMasanory:function  (){
-            $(window).load(function(){
+        initMasanory: function () {
+            $(window).load(function () {
                 app.masanoryCont = $('.grid-cont');
                 app.masanoryCont.masonry({
 //                    columnWidth: 80,
@@ -83,12 +83,23 @@
             });
 
 
-
-
         },
 
+        mobileMenu: function () {
+            //bt-menu-open
+            if (app.isMobile) {
+                $(".bt-menu-trigger").click(function () {
+
+                    var $this = $(this),
+                        ul = $("nav");
+                    $this.toggleClass("bt-menu-open");
+                    ul.slideToggle();
 
 
+                });
+            }
+
+        },
 
         init: function () {
             app.detectDevice();
@@ -97,6 +108,7 @@
             app.addEventListner();
             app.msIeVersion();
             app.initMasanory();
+            app.mobileMenu();
         }
     };
 
