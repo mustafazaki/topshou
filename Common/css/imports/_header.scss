@@ -8,7 +8,6 @@ header {
   nav {
 
     ul {
-      float: right;
       margin-top: 65px;
 
       li {
@@ -33,54 +32,123 @@ header {
 
   }
 
-}
+  .logo-inner {
 
-.banner {
-  height: 746px;
-  background: #000;
+    position: relative;
+    &:after{
+      @include content(500px,102%,0,0,"","");
+      background: $purple;
+      z-index: -1;
 
-  .left-col {
-    float: right;
-  }
-
-  .logo, .player, .btn-group {
-  }
-  .logo {
-    margin-top: 20px;
-    img {
-      width: 100%;
-    }
-  }
-  .player {
-    margin: 100px 0 60px;
-    img, iframe {
-      display: block;
-      margin: 0 auto;
 
     }
   }
-  .btn-group {
-    width: 100%;
-    text-align: center;
 
-    a {
-      margin: 0 5px;
+  .search-bar {
+    position: relative;
+
+    margin: 40px 0 0 25px;
+
+    input {
+      background: #f7f5f5;
+      font-size: 18px;
+      color: $grey;
+      border: none;
+      outline: none;
+      padding: 9.5px 50px 9.5px 10px;
+      width: 310px;
+    }
+
+    span {
+      @include widthHeight(30px, 30px);
+      background-position: -292px 0;
+      @include absolute(6px, 11px, "", "");
+
+    }
+  }
+
+  .logged-in-menu {
+
+    margin-top: 45px;
+
+
+    li {
+      float: left;
+      font: 20px $seogeui-semibold;
+      margin-left: 25px;
+
+      color: #d4d3d0;
+
+    }
+
+    .me {
       span {
-        display: inline-block;
-        background-position: -14px 0;
-        @include widthHeight(12px, 21px);
-        margin: 0 5px;
+        @include widthHeight(27px, 27px);
+        background-position: -165px 0;
+        position: relative;
+        top: 5px;
 
+        img {
+          @include widthHeight(27px, 27px);
+        }
       }
 
-      &:last-child span{
-        background-position: 0 0;
-        @include widthHeight(11px, 22px);
+      a:first-of-type{
+        position: relative;
+        padding-right: 13px;
+        margin: 0 7px 0 5px;
+        
+
+        &:after {
+          @include content(3px, 18px, 5px, 0, "", "");
+          background: #d4d3d0;
+
+        }
       }
+    }
 
-
+    .friends a{
+      background-position: -265px 0;
+      @include widthHeight(26px,33px);
+    }
+    .messages a{
+      background-position: -194px 0;
+      @include widthHeight(29px, 21px);
+      margin-top: 8px;
 
     }
+    .notification a{
+      background-position: -223px 0;
+      @include widthHeight(40px, 24px);
+      margin-top: 5px;
+    }
   }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.banner {
+  height: 746px;
+  background: #000;
+ .logo {
+    margin-top: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .player {
+    margin: 100px 0 60px;
+    img, iframe {
+      display: block;
+      margin: 0 auto;
+
+    }
+  }
+  .btn-group {
+    width: 100%;
+    text-align: center;
+
+    a {
+      margin: 0 5px;
+      span {
+        display: inline-block;
+        background-position: -14px 0;
+        @include widthHeight(12px, 21px);
+        margin: 0 5px;
+
+      }
+
+      &:last-child span {
+        background-position: 0 0;
+        @include widthHeight(11px, 22px);
+      }
+
+    }
+  }
+
+}

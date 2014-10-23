@@ -37,38 +37,40 @@
       width: 100%;
     }
 
-  .detail{
 
-    li{
-      float: left;
-      position: relative;
-      padding-left: 15px;
-
-      margin: 22px 10px 0 0;
-      cursor: pointer;
-      &:after {
-        @include content(14px, 13px, 4px, "", "", 0);
-        background: url(../images/sprite.png) -145px -15px;
-      }
-    &.comment{
-      &:after{
-         background-position: -145px -15px;
-      }
-    }
-
-      &.like {
-
-        &:after {
-          background-position: -145px 0px;
-        }
-      }
-    }
-  }
   }
 
   .btn-group{
     text-align: center;
     margin: 40px 0 15px;
 
+  }
+}
+
+.like-cmnt-cont {
+
+  li {
+    float: left;
+    position: relative;
+    padding-left: 15px;
+
+    margin: 22px 10px 0 0;
+    cursor: pointer;
+    &:after {
+      @include content(14px, 13px, 4px, "", "", 0);
+      background: url(../images/sprite.png) -145px -15px;
+    }
+    &.comment {
+      &:after {
+        background-position: -145px -15px;
+      }
+    }
+
+    &.like {
+
+      &:after {
+        background-position: -145px 0px;
+      }
+    }
   }
 }

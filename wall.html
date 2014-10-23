@@ -14,24 +14,27 @@
 
         <div class="center">
 
-            <div class="logo-inner"><a href="#"><img src="Common/images/logo.png" alt=""/></a></div>
+            <div class="logo-inner pull-left"><a href="#"><img src="Common/images/logo-inner.png" alt=""/></a></div>
 
-            <div class="search-bar">
+            <div class="search-bar pull-left">
                 <input type="search" placeholder="Search"/>
                 <span class="sprite"></span>
             </div>
 
-            <div class="logged-in-menu">
+            <div class="logged-in-menu  pull-right">
 
-                    <ul>
-                        <li class="me"><a href="#">Register </a></li>
-                        <li class="friends"><a href="#">About Us</a></li>
-                        <li class="messages"><a href="#"></a></li>
-                        <li class="notification"><a href="#"></a></li>
-                    </ul>
+                <ul class="list-unstyled">
+                    <li class="me">
+                        <span class="sprite"></span>
+                        <a href="#">Shuja</a>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="friends"><a class="sprite" href="#"></a></li>
+                    <li class="messages"><a class="sprite" href="#"></a></li>
+                    <li class="notification"><a class="sprite" href="#"></a></li>
+                </ul>
 
             </div>
-
 
 
             <div class="bt-menu-trigger mobile sprite"><span></span>
@@ -45,17 +48,16 @@
     <section>
 
         <div class="cover">
+            <div class="center">
+                <div class="thumb"><a href="#"><img src="Common/images/user.png" alt=""/></a></div>
+                <div class="details">
+                    <div class="name">Shuja Ahmad
+                        <a class="about sprite" href="#"></a>
+                    </div>
 
-            <div class="thumb"><a href="#"><img src="Common/images/user.png" alt=""/></a></div>
-            <div class="details">
-                <div class="name">Shuja Ahmad</div>
-                <a class="about btn-round" href="#">
-                    About
-                </a>
-
+                </div>
 
             </div>
-
 
 
         </div>
@@ -64,31 +66,85 @@
 
 
     <section>
-
-<div class="profile-menu">
-    <ul>
-        <li><a href="#">Wall</a></li>
-        <li><a href="#">Wardrobe</a></li>
-        <li><a href="#">Friends</a></li>
-        <li><a href="#">Market</a></li>
-        <li><a href="#">Shop</a></li>
-    </ul>
-    
-</div>
-
+        <div class="profile-menu center">
+            <ul class="list-unstyled">
+                <li><a class="btn-round active wall" href="#"><span>Wall</span></a></li>
+                <li><a class="btn-round wardrobe" href="#"><span>Wardrobe</span></a></li>
+                <li><a class="btn-round friends" href="#"><span>Friends</span></a></li>
+                <li><a class="btn-round market" href="#"><span>Market</span></a></li>
+                <li><a class="btn-round shop" href="#"><span>Shop</span></a></li>
+            </ul>
+        </div>
     </section>
+
+
+    <section>
+
+        <div class="profile-detail center">
+            <div class="left-col pull-left">
+
+
+                <div class="share-post">
+                    <div class="head">What should I wear?</div>
+                    <textarea placeholder="Share...."></textarea>
+
+                    <div class="foot">
+                        Share with
+
+                        <a class="btn pull-right" href="#">Post</a>
+                    </div>
+
+                </div>
+
+
+                <div class="post-detail">
+
+                    <div class="head">
+                        <h4> Shuja Ahmad
+                            <small>Yesterday</small>
+                        </h4>
+
+                        <span class="close">X</span>
+
+
+                    </div>
+
+                    <div class="post-slider">
+                        <div class="slide"><img src="Common/images/slide.png" alt=""/></div>
+                        <div class="slide"><img src="http://placehold.it/650x550" alt=""/></div>
+                        <div class="slide"><img src="Common/images/slide.png" alt=""/></div>
+                        <div class="slide"><img src="Common/images/slide.png" alt=""/></div>
+                    </div>
+
+
+                    <div class="like-cmnt-cont">
+                        <ul class="list-unstyled">
+                            <li class="comment">12</li>
+                            <li class="like">123</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col pull-right">
+                <img src="Common/images/friends.png" alt=""/>
+            </div>
+
+        </div>
+    </section>
+
 
     <footer>
         <div class="center">
-            <p>Copyright 2014 TopShou | All Rights Reserved</p>
+            <p class="pull-left">Copyright 2014 TopShou | All Rights Reserved</p>
 
 
-            <div class="social-icons"><a class="sprite tw" href="#"></a><a class="sprite fb" href="#"></a><a
+            <div class="social-icons pull-left"><a class="sprite tw" href="#"></a><a class="sprite fb" href="#"></a><a
                     class="sprite gp"
                     href="#"></a></div>
 
 
-            <a class="logo desktop" href="#">
+            <a class="pull-right" class="logo desktop" href="#">
                 <img src="Common/images/logo_footer.jpg" alt=""/>
             </a>
         </div>
@@ -101,6 +157,7 @@
 <script src="Common/js/vendor/jquery-1.10.1.min.js"></script>
 <script src="Common/js/vendor/modernizr.custom.71422.js"></script>
 <script src="Common/js/vendor/masanory.min.js"></script>
+<script src="Common/js/vendor/jquery.bxslider.min.js"></script>
 <script src="Common/js/default.js"></script>
 <script>
     if (window.location.hash.search("debug=true") > 0) {

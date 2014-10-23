@@ -1,2 +1,3 @@
 sunday 19-10 1 hour
-monday 20-10 3.5 hour
+tuesday 21-10 3.5 hour
+wednesday 22-10 5 hour

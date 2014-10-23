@@ -6,7 +6,6 @@ footer {
   margin-top: 45px;
   p {
 
-    float: left;
     font-size: 15px;
     margin-top: 48px;
 
@@ -14,13 +13,12 @@ footer {
   }
 
   .social-icons {
-    float: left;
     margin:40px 0 0 15px;
 
 
     a {
       display: inline-block;
-      @include widthHeight(38px, 38px);
+      @include widthHeight(37px, 38px);
       margin-right: 10px;
       &.tw {
         background-position: -31px 0;
@@ -34,8 +32,5 @@ footer {
     }
   }
 
-  .logo {
-    float: right;
 
-  }
 }
