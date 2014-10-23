@@ -8,10 +8,77 @@
     padding: 0 2%;
   }
 
+  header {
+    .logo-inner {
+      width: 28%;
+      height: 100%;
+      img {
+        margin-top: 13px;
+      }
+    }
+    .search-bar input {
+      width: 200px;
+    }
+    .logged-in-menu li {
+      margin-left: 15px;
+
+    }
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
+  header {
+    .logo-inner {
+      width: 35%;
 
+    }
+    .search-bar {
+      margin-top: 10px;
+      input {
+        width: 300px;
+      }
+    }
+    .logged-in-menu {
+
+      float: left;
+      margin: 8px 0 0 10px;
+
+    }
+  }
+
+  .profile-menu li {
+    margin: 50px 5px;
+
+    a {
+      @include widthHeight(120px, 120px);
+
+      span {
+        bottom: 18px;
+
+      }
+      &:after {
+        top: 20px !important;
+      }
+
+    }
+
+  }
+
+  .profile-detail {
+
+    .left-col {
+      width: 55%;
+      margin-left: 0;
+
+    }
+    .right-col {
+      width: 40%;
+      margin-right: 0;
+
+
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -127,7 +194,6 @@
     .btn-group {
       margin-top: 277px;
 
-
       .btn {
         padding: 14px 20px;
 
@@ -136,28 +202,27 @@
   }
 
   .grid-section {
-    h2{
-      &:after,&:before{
+    h2 {
+      &:after, &:before {
         display: none;
       }
       margin: 20px 0;
 
     }
 
-    .grid-cont{
+    .grid-cont {
       margin: 0 auto;
       width: 250px;
     }
   }
 
+  footer {
 
-  footer{
-
-    p{
-    font-size: 14px;
-    margin: 16px 10px 0 0;
+    p {
+      font-size: 14px;
+      margin: 16px 10px 0 0;
     }
-    .social-icons{
+    .social-icons {
       margin: 10px 0 10px;
     }
   }

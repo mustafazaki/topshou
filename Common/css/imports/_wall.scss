@@ -202,6 +202,10 @@
     width: percentage(365px/$layout-width);
     margin-right: percentage(115px/$layout-width);
 
+    img,iframe{
+      width: 100%;
+    }
+
   }
 }
 

@@ -35,12 +35,14 @@ header {
   .logo-inner {
 
     position: relative;
+    img {
+      width: 100%;
+
+    }
     &:after{
       @include content(500px,102%,0,0,"","");
       background: $purple;
       z-index: -1;
-
-
     }
   }
 
