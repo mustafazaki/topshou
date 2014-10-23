@@ -38,7 +38,7 @@
 
     @include widthHeight(73px, 71px);
     margin-bottom: -20px;
-
+    text-indent: -99999px;
     background-position: -296px -41px;
 
   }
@@ -103,7 +103,6 @@
 }
 
 .profile-detail {
-
 
   .left-col {
     width: percentage(550px/$layout-width);
@@ -176,25 +175,25 @@
       cursor: pointer;
 
     }
-.bx-wrapper{
-    .bx-next, .bx-prev {
-      @include widthHeight(40px, 40px);
-      background: $purple;
-      color: #fff;
-      display: block;
-      font: 20px/36px $seogeui-semibold;
-      text-align: center;
-      @include absolute(50%, 20px, "", "");
-      margin-top: -10px;
-    }
-    .bx-prev {
-      left: 20px;
-    }
-  img{
-    max-width: 100%;
-  }
+    .bx-wrapper {
+      .bx-next, .bx-prev {
+        @include widthHeight(40px, 40px);
+        background: $purple;
+        color: #fff;
+        display: block;
+        font: 20px/36px $seogeui-semibold;
+        text-align: center;
+        @include absolute(50%, 20px, "", "");
+        margin-top: -10px;
+      }
+      .bx-prev {
+        left: 20px;
+      }
+      img {
+        max-width: 100%;
+      }
 
-}
+    }
 
   }
 
@@ -202,7 +201,7 @@
     width: percentage(365px/$layout-width);
     margin-right: percentage(115px/$layout-width);
 
-    img,iframe{
+    img, iframe {
       width: 100%;
     }
 

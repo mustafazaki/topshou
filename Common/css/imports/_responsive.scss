@@ -76,7 +76,6 @@
       width: 40%;
       margin-right: 0;
 
-
     }
   }
 }
@@ -226,5 +225,106 @@
       margin: 10px 0 10px;
     }
   }
+
+  header.inner {
+
+    height: 180px;
+    .center {
+      width: 100%;
+      padding: 0;
+    }
+
+    .logo-inner {
+      width: 100%;
+      height: auto;
+      a {
+        display: block;
+      }
+      img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    .search-bar {
+      margin: 10px 0;
+      width: 100%;
+
+      input {
+        width: 100%;
+        @include box-sizing(border-box)
+
+      }
+    }
+
+    .logged-in-menu {
+      margin: 0;
+      li {
+        font-size: 14px;
+        margin-left: 10px;
+
+        a:first-of-type:after {
+
+          top: 3px;
+          height: 13px;
+        }
+
+      }
+    }
+
+  }
+
+  .cover {
+    height: 135px;
+    margin-bottom: 80px;
+
+    .thumb {
+      @include widthHeight(100px, 100px);
+      bottom: -20px;
+
+    }
+    .name {
+      width: 200px;
+      padding: 0;
+      font-size: 15px;
+      left: 110px;
+
+    }
+    .about {
+      text-indent: 0;
+      font-size: 70%;
+      text-decoration: underline;
+      @include widthHeight(auto, auto);
+      background: none;
+
+    }
+  }
+
+  .profile-menu {
+    width: 100%;
+    padding: 0;
+
+    li {
+      margin: 50px 0;
+      float: left;
+      width: 20%;
+      a {
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+
+        span {
+          position: static;
+
+        }
+        &:after {
+          display: none;
+
+        }
+      }
+    }
+  }
+
 }
 
