@@ -46,28 +46,7 @@ header {
     }
   }
 
-  .search-bar {
-    position: relative;
 
-    margin: 40px 0 0 25px;
-
-    input {
-      background: #f7f5f5;
-      font-size: 18px;
-      color: $grey;
-      border: none;
-      outline: none;
-      padding: 9.5px 50px 9.5px 10px;
-      width: 310px;
-    }
-
-    span {
-      @include widthHeight(30px, 30px);
-      background-position: -292px 0;
-      @include absolute(6px, 11px, "", "");
-
-    }
-  }
 
   .logged-in-menu {
 

@@ -1,0 +1,13 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.friends-list {
+  width: 100%;
+  float: left;
+  li {
+    width: percentage(356px/$layout-width);
+    margin: percentage(20px/$layout-width);
+    float: left;
+  }
+
+}
