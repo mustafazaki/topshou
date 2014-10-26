@@ -40,7 +40,7 @@ header {
 
     }
     &:after{
-      @include content(500px,102%,0,0,"","");
+      @include content(1000px,102%,0,0,"","");
       background: $purple;
       z-index: -1;
     }

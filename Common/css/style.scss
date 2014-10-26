@@ -35,10 +35,6 @@ body.pushy-active {
   display: none;
 }
 
-
-
-
-
 .transition {
   @include transition(all 0.2s cubic-bezier(.17, .48, .89, .6));
 
@@ -58,10 +54,9 @@ section, header, footer {
   background: url(../images/sprite.png) 0 0 no-repeat;
 }
 
-span.sprite,a.sprite {
+span.sprite, a.sprite {
   display: inline-block;
 }
-
 
 .btn {
   background: #4b4e4f;
@@ -70,26 +65,25 @@ span.sprite,a.sprite {
   padding: 14px 39px;
   color: #fff;
 }
-.btn-small{
+
+.btn-small {
   font-size: 20px;
   padding: 8px 39px;
 
-
-
 }
+
 .btn-grey {
   background: #4b4e4f;
 }
 
-
-.btn-round{
+.btn-round {
   border-radius: 100%;
   color: #fff;
   font: 16px $seogeui-semibold;
   display: inline-block;
 }
 
-.pull-left{
+.pull-left {
   float: left;
 }
 
@@ -120,6 +114,20 @@ span.sprite,a.sprite {
   }
 }
 
+.error {
+  color: red !important;
+
+  input {
+    border-color: red !important;
+  }
+  label{
+    color: red !important;
+  }
+
+
+
+
+}
 
 @import "imports/_footer";
 @import "imports/_wall";
@@ -131,7 +139,5 @@ span.sprite,a.sprite {
 @import "imports/_marketPlace";
 @import "imports/_about";
 @import "imports/_info";
-
-
 
 @import "imports/_responsive";
