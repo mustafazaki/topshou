@@ -1,0 +1,48 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.profile-info {
+  width: 550px;
+
+
+  li{
+    margin-bottom: 10px;
+
+  }
+  h1{
+    color:$purple;
+    font: 38px $seogeui-semibold;
+
+
+
+
+  }
+
+  input, textarea {
+    width: 100%;
+    border: 1px solid $grey;
+    resize: none;
+    outline: none;
+    color: $purple;
+
+
+
+
+
+    padding: 7.5px 10px;
+
+    @extend .box-sizing;
+
+    @include placeholder {
+      color: #ffffff;
+
+    }
+
+  }
+  label{
+    color: $purple;
+    font-size: 18px;
+  }
+
+
+}
