@@ -17,9 +17,7 @@
     color: #696969;
     margin-bottom: 50px;
 
-
   }
-
 
   input {
     border: none;
@@ -39,68 +37,81 @@
 }
 
 .product-list {
-  .search-bar {
-    margin: 0 auto;
-    width: 465px;
 
-    input {
-      width: 180px;
+  width: 100%;
+  float: left;
+  margin: 0 0 70px;
 
-      margin-left: 15px;
-
-    }
-    .btn-small {
-      position: relative;
-      top: 2px;
-    }
-
-  }
-  .friends-list {
-    width: 100%;
+  li {
+    width: percentage(340px/$layout-width);
+    margin: percentage(20px/$layout-width);
     float: left;
-    margin: 50px 0 70px;
+    padding: 7px 7px 15px 7px;
+    @extend .box-sizing;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
 
-    li {
-      width: percentage(356px/$layout-width);
-      margin: percentage(20px/$layout-width);
-      float: left;
-      border: 1px solid $grey;
-      display: table;
+  .thumb {
+    width: 100%;
+
+    height: 202px;
+    position: relative;
+    margin-bottom: 25px;
+
+
+    &:after{
+      @include content(100%,100%,0,"","",0);
+      background: url(../images/shadow.png) 0 0 no-repeat;
+      background-size: 100% 100%;
+
+
+
+
+
+
     }
 
-    .thumb {
-      width: 41%;
 
-      height: 157px;
-      position: relative;
-      display: table-cell;
-
-      vertical-align: top;
-
-      img {
-        @include verticalCenter();
-
-      }
-
-    }
-    .name {
-      display: table-cell;
-      width: 52%;
-      padding-left: 15px;
-
-      vertical-align: middle;
-      h4 {
-        font-size: 21px;
-        margin: 0;
-
-      }
-      span {
-        color: $purple;
-        font-size: 15px;
-
-      }
+    img {
+      @include verticalCenter();
 
     }
 
   }
+  .detail {
+    sub {
+
+      font-size: 20px;
+      bottom: 0;
+
+
+
+    }
+    .tags {
+      margin: 7px 0 7px -2px;
+      color: $purple;
+      font-size: 16px;
+      a {
+        text-decoration: underline;
+        margin: 0 2px;
+
+      }
+    }
+
+    .name{
+      font-size: 18px;
+      h4{
+       margin: 0;
+      }
+
+      small{
+        font-size: 70%;
+        margin-right: 5px;
+
+      }
+    }
+
+  }
+
 }
