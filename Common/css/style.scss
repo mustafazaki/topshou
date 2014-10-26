@@ -72,6 +72,9 @@ span.sprite,a.sprite {
 }
 .btn-small{
   font-size: 20px;
+  padding: 8px 39px;
+
+
 
 }
 .btn-grey {
@@ -125,4 +128,5 @@ span.sprite,a.sprite {
 @import "imports/_banner";
 @import "imports/_btn";
 @import "imports/_grids";
+@import "imports/_marketPlace";
 @import "imports/_responsive";

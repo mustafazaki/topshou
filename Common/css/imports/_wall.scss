@@ -37,9 +37,10 @@
   .about {
 
     @include widthHeight(73px, 71px);
-    margin-bottom: -20px;
     text-indent: -99999px;
     background-position: -296px -41px;
+    position: relative;
+    top: -13px;
 
   }
 

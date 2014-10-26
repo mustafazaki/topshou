@@ -1,31 +1,64 @@
 @import "../../bourbon/bourbon";
 @import "functions";
 
-.profile-friends {
+.intro {
+  text-align: center;
+
+  h1 {
+    font: 48px $seogeui-semibold;
+    color: $purple;
+    small {
+      display: block;
+      font-family: $seogeui-regular;
+    }
+  }
+  p {
+    font-size: 30px;
+    color: #696969;
+    margin-bottom: 50px;
+
+
+  }
+
+
+  input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #696969;
+    width: 85px;
+
+  }
+
+  .btn-round {
+    @include widthHeight(74px, 74px);
+    background: $purple;
+    font-size: 24px;
+    line-height: 71px;
+  }
+
+}
+
+.product-list {
   .search-bar {
     margin: 0 auto;
     width: 465px;
 
-    input{
+    input {
       width: 180px;
 
       margin-left: 15px;
 
     }
-    .btn-small{
+    .btn-small {
       position: relative;
-      top:2px;
+      top: 2px;
     }
-
 
   }
   .friends-list {
     width: 100%;
     float: left;
-    margin:50px 0 70px;
-
-
-
+    margin: 50px 0 70px;
 
     li {
       width: percentage(356px/$layout-width);
