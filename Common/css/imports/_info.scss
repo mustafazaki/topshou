@@ -3,46 +3,57 @@
 
 .profile-info {
   width: 550px;
-
-
-  li{
+  margin: 0 auto;
+  li {
     margin-bottom: 10px;
-
   }
-  h1{
-    color:$purple;
+  h1 {
+    color: $purple;
     font: 38px $seogeui-semibold;
-
-
-
-
   }
 
-  input, textarea {
+  input[type="text"], textarea, input[type="password"] {
     width: 100%;
     border: 1px solid $grey;
     resize: none;
     outline: none;
     color: $purple;
-
-
-
-
-
+    margin-top: 5px;
     padding: 7.5px 10px;
-
     @extend .box-sizing;
-
     @include placeholder {
       color: #ffffff;
-
     }
-
   }
-  label{
+
+  textarea {
+    height: 85px;
+  }
+
+  label {
     color: $purple;
     font-size: 18px;
   }
 
+  .radio {
+    font-size: 18px;
+    color: $purple;
+
+    input[type="radio"] {
+      display: none;
+    }
+    label {
+      background: #fff;
+      border: 1px solid $grey;
+      @include widthHeight(15px, 15px);
+      display: inline-block;
+      position: relative;
+    }
+
+    input[type="radio"]:checked + label:after {
+      @include content(7px, 7px, 3px, "", "", 3px);
+      background: $purple;
+    }
+  }
 
 }
