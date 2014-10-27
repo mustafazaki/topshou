@@ -56,7 +56,6 @@
     width: 100%;
 
     height: 202px;
-    position: relative;
     margin-bottom: 25px;
 
 
@@ -73,10 +72,6 @@
     }
 
 
-    img {
-      @include verticalCenter();
-
-    }
 
   }
   .detail {

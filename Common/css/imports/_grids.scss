@@ -19,12 +19,12 @@
       @include content(100px, 1px, 21px, "", "", 30%);
       background: $grey;
     }
- }
+  }
 
-.grid-cont{
-  width: 105%;
+  .grid-cont {
+    width: 105%;
 
-}
+  }
 
   .grid {
     width: 240px;
@@ -33,14 +33,15 @@
     box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
     padding: 7px 7px 25px;
     margin: 0 5px 10px;
-    img{
+    img {
       width: 100%;
+      position: static;
+      @include transform(none)
     }
-
 
   }
 
-  .btn-group{
+  .btn-group {
     text-align: center;
     margin: 40px 0 15px;
 

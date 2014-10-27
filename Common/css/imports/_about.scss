@@ -14,12 +14,9 @@
 
     border: 5px solid #fff;
     margin-right: 30px;
-    position: relative;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 
-    img {
-      @include verticalCenter();
-    }
+
 
   }
 

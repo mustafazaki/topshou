@@ -108,9 +108,21 @@
                nextText:">",
                prevText:"<",
                adaptiveHeight:true
-
-
            })
+
+            $(".items-slider ul").bxSlider({
+                pager: false,
+                nextText: ">",
+                prevText: "<",
+//                minSlides:6,
+                minSlides:9,
+                maxSlides:9,
+                slideWidth:100,
+                infiniteLoop:false,
+                hideControlOnEnd:true
+
+            })
+
 
         },
         init: function () {

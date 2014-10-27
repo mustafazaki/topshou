@@ -120,14 +120,21 @@ span.sprite, a.sprite {
   input {
     border-color: red !important;
   }
-  label{
+  label {
     color: red !important;
   }
 
-
-
-
 }
+
+.thumb {
+  position: relative;
+  img {
+
+    @include verticalCenter();
+  }
+}
+
+
 
 @import "imports/_footer";
 @import "imports/_wall";
@@ -138,6 +145,8 @@ span.sprite, a.sprite {
 @import "imports/_grids";
 @import "imports/_marketPlace";
 @import "imports/_about";
+@import "imports/_wardrobe";
 @import "imports/_info";
+@import "imports/_overlay";
 
 @import "imports/_responsive";
