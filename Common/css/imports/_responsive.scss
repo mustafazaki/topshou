@@ -4,7 +4,7 @@
 @media only screen and (max-width: 1100px) {
 
   .center {
-    width: 96%;
+    width: 100%;
     padding: 0 2%;
     margin: 0;
   }
@@ -35,12 +35,18 @@
     height: 117px;
   }
 
-  .profile-info{
-    margin: 0 0 150px 270px;
-    h1{
-      margin-bottom:30px;
+  .profile-info {
+    // margin: 0 0 150px 270px;
+    h1, h2 {
+      margin: 30px 0;
 
+    }
+  }
+  .wardrobe-items {
+    .items-slider {
+      width: 100%;
 
+      margin-left: 0;
     }
   }
 
@@ -168,7 +174,23 @@
     h1 {
       margin-top: 20px;
 
+    }
+  }
 
+  .wardrobe-items {
+    .items-slider {
+      width: 90%;
+      //      margin: 0 auto;
+      margin: 50px auto 30px;
+
+    }
+  }
+
+  .listing {
+    > li {
+      margin: 3.6%;
+
+      width: 26%;
     }
   }
 
@@ -203,7 +225,6 @@
     font-size: 14px;
 
   }
-
 
   header {
 
@@ -386,8 +407,10 @@
       @include widthHeight(100px, 100px);
       bottom: -20px;
 
-      .upload{
+      .upload {
         margin-top: 90px;
+        background: url("../images/upload-mob.png") no-repeat center;
+        height: 30px;
 
       }
 
@@ -479,10 +502,14 @@
 
   .profile-info {
     width: 100%;
+    margin-bottom: 64px;
 
-    h2 {
+    h1, h2 {
       margin-bottom: 30px;
+      font-size: 30px;
+      text-align: center;
     }
+
   }
   .map {
     width: 100%;
@@ -583,19 +610,24 @@
       line-height: 0;
       text-decoration: underline;
 
-
       display: inline;
       border-radius: 0;
       font-size: 14px;
       color: $purple;
       background: #fff;
 
-
-
-
-
     }
 
+  }
+
+  .listing {
+    > li {
+      margin: 1.5%;
+      width: 47%;
+    }
+    .thumb{
+      height: 83px;
+    }
   }
 
 }

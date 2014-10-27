@@ -115,7 +115,7 @@
                 nextText: ">",
                 prevText: "<",
 //                minSlides:6,
-                minSlides:9,
+                minSlides:2,
                 maxSlides:9,
                 slideWidth:100,
                 infiniteLoop:false,
