@@ -64,6 +64,7 @@ span.sprite, a.sprite {
   font-size: 24px;
   padding: 14px 39px;
   color: #fff;
+  @extend .transition;
 }
 
 .btn-small {
@@ -134,6 +135,9 @@ span.sprite, a.sprite {
     @include verticalCenter();
   }
 }
+.grid-cont .grid{
+  display: none;/*wait until images finishes loading then display it*/
+}
 
 
 
@@ -149,5 +153,6 @@ span.sprite, a.sprite {
 @import "imports/_wardrobe";
 @import "imports/_info";
 @import "imports/_overlay";
+@import "imports/_hover";
 
 @import "imports/_responsive";

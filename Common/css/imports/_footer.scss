@@ -27,6 +27,7 @@ footer {
     display: inline-block;
     @include widthHeight(37px, 38px);
     margin-right: 10px;
+    @extend .transition;
     &.tw {
       background-position: -31px 0;
     }

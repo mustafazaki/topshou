@@ -74,7 +74,9 @@
         },
 
         initMasanory: function () {
+
             $(window).load(function () {
+                $(".grid-cont .grid").show();
                 app.masanoryCont = $('.grid-cont');
                 app.masanoryCont.masonry({
 //                    columnWidth: 80,
@@ -108,6 +110,7 @@
                nextText:">",
                prevText:"<",
                adaptiveHeight:true
+//               preloadImage:"all"
            })
 
             $(".items-slider ul").bxSlider({

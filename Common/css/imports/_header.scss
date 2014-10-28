@@ -12,6 +12,7 @@ header {
 
       li {
         font-size: 18px;
+        @extend .transition;
         float: left;
         position: relative;
         padding: 0 20px;
@@ -59,6 +60,10 @@ header {
       margin-left: 25px;
 
       color: #d4d3d0;
+      a{
+        @extend .transition;
+
+      }
 
     }
 

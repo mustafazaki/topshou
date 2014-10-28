@@ -49,7 +49,39 @@
       margin-left: 0;
     }
   }
+  .feedback {
+    @include transform(scale(0.7));
+    @include transform-origin(center right);
 
+  }
+  .profile-detail .share-post .foot .right {
+    width: 66%;
+  }
+  .profile-detail .share-post .foot .left {
+    width: 27%;
+  }
+  .banner {
+    height: 552px;
+    .pull-right {
+      width: 55%;
+
+    }
+    .player {
+      width: 80%;
+
+      margin-top: 30px;
+      padding-top: 52%;
+
+    }
+  }
+
+  .grid-section h2:before {
+    left: 24%;
+  }
+  .grid-section h2:after {
+    right: 24%;
+
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -193,7 +225,57 @@
       width: 26%;
     }
   }
+  .feedback {
+    @include transform(scale(0.5));
 
+  }
+
+  .profile-detail .post-detail {
+    padding-bottom: 70px;
+
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .profile-detail .share-post .foot {
+    padding: 20px 15px;
+
+  }
+  .profile-detail .share-post .foot .pull-left {
+    width: 77%;
+
+  }
+  .profile-detail .share-post .foot .right {
+    width: 72%;
+  }
+  .profile-detail .share-post .foot .left {
+    width: 25%;
+  }
+  .profile-detail .share-post .foot em {
+    font-size: 12px;
+    padding: 3px;
+
+  }
+  .banner {
+
+    height: 418px;
+
+    .player {
+      margin: 20px auto 30px;
+      width: 90%;
+
+    }
+  }
+  .grid-section h2:before {
+    left:17%;
+  }
+  .grid-section h2:after {
+    right: 17%;
+
+
+
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -302,6 +384,14 @@
   }
   .banner {
     height: 380px;
+    background: url("../images/home_bg_mob.png") center /auto 100% no-repeat;
+
+
+
+
+    .right-col{
+      width: 100%;
+    }
     .logo {
       margin-top: 0;
     }
@@ -625,9 +715,24 @@
       margin: 1.5%;
       width: 47%;
     }
-    .thumb{
+    .thumb {
       height: 83px;
     }
+  }
+
+  .profile-detail .share-post .foot .pull-left {
+    width: 100%;
+  }
+  .profile-detail .share-post .btn {
+    float: left;
+    margin-top: 10px;
+
+  }
+  .cover .thumb .pic {
+    @include transform(scale(0.4));
+    @include transform-origin(left top);
+    left: 2px;
+    top: 2px;
   }
 
 }

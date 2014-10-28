@@ -20,13 +20,20 @@
     border: 5px solid #fff;
     @extend .box-sizing;
     @include absolute("", "", -70px, 0);
-    .upload{
-      @include widthHeight(100%,39px);
+    .upload {
+      @include widthHeight(100%, 39px);
       background: url("../images/upload.png") no-repeat 0 0;
-      background-size:100% 39px;
+      background-size: 100% 39px;
       display: inline-block;
       cursor: pointer;
       margin-top: 250px;
+    }
+    .pic {
+      width: 44px;
+      height: 34px;
+      background-position: -379px -40px;
+      @include absolute(18px, "", "", 8px);
+
     }
   }
 
@@ -44,6 +51,7 @@
     background-position: -296px -41px;
     position: relative;
     top: -13px;
+    @extend .transition;
 
   }
 
@@ -67,6 +75,7 @@
       }
       &:after {
         background-image: url(../images/sprite.png);
+        @include transition(all 0.2s ease-in);
       }
 
     }
@@ -139,6 +148,42 @@
     .foot {
       padding: 20px 30px 20px 30px;
       border-top: 1px solid $grey;
+      .pull-left {
+        width: 70%;
+
+      }
+      .left {
+        float: left;
+        width: 22%;
+      }
+      .right {
+        float: right;
+        width: 75%;
+      }
+
+      em {
+        background: #88c5da;
+        display: inline-block;
+        padding: 5px 3px;
+        margin-bottom: 5px;
+
+        color: #fff;
+        font: normal 14px $seogeui-regular;
+        sub {
+          margin: 0 8px 0 8px;
+          float: right;
+        }
+
+      }
+      .share-with {
+        width: 15px;
+        height: 15px;
+        background-position: -429px -50px;
+        float: left;
+        clear: left;
+        margin-top: 15px;
+
+      }
     }
     .btn {
       font: 15px $seogeui-regular;
@@ -189,6 +234,7 @@
         text-align: center;
         @include absolute(50%, 20px, "", "");
         margin-top: -10px;
+        @extend .transition;
       }
       .bx-prev {
         left: 20px;
@@ -209,6 +255,32 @@
       width: 100%;
     }
 
+  }
+}
+
+.feedback {
+
+  @include widthHeight(142px, 142px);
+  //    position: fixed;
+
+  @include fixed(50%, 10px, "", "");
+  background-color: $purple;
+  margin-top: -71px;
+  z-index: 9999;
+
+  &:after {
+    background: url(../images/sprite.png) -429px 0;
+    @include content(41px, 41px, 28px, "", "", 50%);
+    margin-left: -20.5px;
+    @include transition(all 0.2s ease-in);
+
+
+  }
+
+  span {
+    @include absolute("", "", 36px, 0);
+    width: 100%;
+    text-align: center;
   }
 }
 
