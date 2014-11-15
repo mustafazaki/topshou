@@ -8,16 +8,28 @@ module.exports = function (grunt) {
 
 
             watch: {
-                files: ['**/*.css','**/*.js', '**/*.html'],
+                files: ['**/*.css', '**/*.js', '**/*.html', '**/*.scss'],
+                tasks: ['sass'],
 			options: {
 					livereload: true
 
 				}
+            },
+            sass: {
+                options: {
+                    sourceMap: true
+                },
+                dist: {
+                    files: {
+                        'Common/css/style.css': 'Common/css/style.scss'
+                    }
+                }
             }
 
         });
 
 
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.registerTask('default', ['grunt-contrib-watch']);
 };

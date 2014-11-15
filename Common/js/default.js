@@ -56,6 +56,64 @@
 
 
         addEventListner: function () {
+            $(".overlay .close").click(function () {
+                app.closeOverlay()
+            });
+
+        },
+
+
+        viewTrends: function () {
+            //    var $this = null;
+
+            $(".view-trends").click(function () {
+
+                if ($(this).hasClass("active")) {
+                    return;
+                }
+
+                // $this = $(this);
+
+                $.getJSON('thumbs.json', function (json) {
+                    $(".view-trends").addClass("active");
+                    _renderMarkup(json);
+                });
+
+            });
+
+
+            function _renderMarkup(json) {
+                var markup = "";
+                $(json).each(function () {
+                    markup += "<div class='grid'>";
+                    markup += "<div class='thumb'>";
+                    markup += "<img src='" + this.Image_thumbnail + "' />";
+                    markup += "</div>";
+                    markup += "<div class='like-cmnt-cont'><ul class='list-unstyled'>";
+                    markup += "<li class='comment'>" + this.comment + "</li>";
+                    markup += "<li class='like'>" + this.like + "</li>";
+                    markup += "</ul></div>";
+                    markup += "</div>";
+
+                });
+                $(".grid-cont").append(markup);
+
+
+                $(".grid-cont .thumb img").load(function () {
+                    $(".grid-cont .grid").show();
+                    app.masanoryCont.masonry("reloadItems");
+                    app.masanoryCont.masonry("layout");
+                    $(".view-trends").removeClass("active");
+                });
+
+
+                //1   app.masanoryCont.masonry();
+
+                //  app.masanoryCont.appended(markup);
+
+
+            }
+
 
         },
 
@@ -75,10 +133,11 @@
 
         initMasanory: function () {
 
-            $(window).load(function () {
-                $(".grid-cont .grid").show();
-                app.masanoryCont = $('.grid-cont');
-                app.masanoryCont.masonry({
+            $(".grid-cont .thumb img").load(function () {
+                $(".grid-cont .grid,.view-trends").show();
+
+                //  app.masanoryCont = $('.grid-cont');
+                app.masanoryCont = $('.grid-cont').masonry({
 //                    columnWidth: 80,
                     itemSelector: '.grid'
                 });
@@ -103,26 +162,40 @@
 
         },
 
+        openOverlay: function () {
+            //  <span class="btn btn-purple btn-small close">X</span>
+            $(".overlay").addClass("active");
+
+
+        },
+        closeOverlay: function () {
+            //  <span class="btn btn-purple btn-small close">X</span>
+            $(".overlay").removeClass("active");
+
+
+        },
+
+
         initBxSlider: function () {
             //bt-menu-open
-           $(".post-slider").bxSlider({
-               pager:false,
-               nextText:">",
-               prevText:"<",
-               adaptiveHeight:true
+            $(".post-slider").bxSlider({
+                pager: false,
+                nextText: ">",
+                prevText: "<",
+                adaptiveHeight: true
 //               preloadImage:"all"
-           })
+            })
 
             $(".items-slider ul").bxSlider({
                 pager: false,
                 nextText: ">",
                 prevText: "<",
 //                minSlides:6,
-                minSlides:2,
-                maxSlides:9,
-                slideWidth:100,
-                infiniteLoop:false,
-                hideControlOnEnd:true
+                minSlides: 2,
+                maxSlides: 9,
+                slideWidth: 100,
+                infiniteLoop: false,
+                hideControlOnEnd: true
 
             })
 
@@ -137,6 +210,7 @@
             app.initMasanory();
             app.mobileMenu();
             app.initBxSlider();
+            app.viewTrends();
         }
     };
 

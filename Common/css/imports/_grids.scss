@@ -46,6 +46,19 @@
     margin: 40px 0 15px;
 
   }
+  .view-trends {
+    display: none; /*wait until images finishes loading then display it*/
+
+    &.active {
+      position: relative;
+      &:after {
+        @include content(100%, 100%, 0, 0, "", "");
+
+        background: $purple url(../images/loader.GIF) center no-repeat;
+      }
+
+    }
+  }
 }
 
 .like-cmnt-cont {
