@@ -248,11 +248,47 @@
   }
 
   .right-col {
-    width: percentage(365px/$layout-width);
+    width: percentage(395px/$layout-width);
     margin-right: percentage(115px/$layout-width);
 
     img, iframe {
+      //      width: 100%;
+
+    }
+    .friends-cont {
+      background: #f6f7f8;
+      float: left;
       width: 100%;
+      border-radius:3px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.69);
+      h5 {
+        font: bold 16px arial;
+        color: #535252;
+        margin: 13px 15px;
+
+      }
+      ul {
+        float: left;
+        background: #fff;
+        margin-bottom: 5px;
+        width: 100%;
+
+      }
+      li {
+        float: left;
+        width: calc(33.33% - 5px);
+        margin: 2.5px;
+        position: relative;
+        img {
+          width: 100%;
+        }
+        span{
+          @include absolute("","",9px,6px);
+          color: #fff;
+          font:bold 14px arial;
+
+        }
+      }
     }
 
   }
@@ -273,7 +309,6 @@
     @include content(41px, 41px, 28px, "", "", 50%);
     margin-left: -20.5px;
     @include transition(all 0.2s ease-in);
-
 
   }
 
