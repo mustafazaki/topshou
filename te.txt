@@ -3,3 +3,6 @@ tuesday 21-10 3.5 hour
 wednesday 22-10 5 hour
 thursday 23-10 3 hour
 friday 24-10 2 hour
+sunday  7
+monday  4
+tuesday 4

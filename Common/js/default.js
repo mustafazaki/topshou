@@ -57,17 +57,67 @@
 
         addEventListner: function () {
             $("header .sub-menu li").click(function () {
-                    var $this = $(this),
-                        href = $this.find("a").attr("href");
-                    if (href != undefined) {
-                        window.location = href;
-                        return false;
-                    }
+                var $this = $(this),
+                    href = $this.find("a").attr("href");
+                if (href != undefined) {
+                    window.location = href;
+                    return false;
+                }
             });
 
             $(".overlay .close").click(function () {
-                app.closeOverlay()
+                //app.closeOverlay()
+
+                $(this).parents(".overlay").removeClass("active")
             });
+        },
+
+
+        dropDownMenu: function () {
+            $("header .logged-in-menu >ul> li").click(function (event) {
+
+                var $this = $(this),
+                    menu = $this.find(".sub-menu");
+
+
+                $("header .logged-in-menu li .sub-menu").stop().slideUp();
+                $("header .logged-in-menu >ul> li").removeClass("active");
+
+
+                menu.slideUp();
+                if (menu.length > 0) {
+                    $this.addClass("active");
+                    menu.stop().slideDown()
+                }
+
+                if (app.isMobile) {
+
+                    menu.css({
+                        "width":app.WINDOW_WIDTH+"px",
+                        "left":"-"+ $this.offset().left+"px"
+
+                    });
+
+                }
+
+                event.stopImmediatePropagation()
+            });
+
+            $("header .logged-in-menu  .sub-menu").click(function(event){
+                event.stopImmediatePropagation()
+            })
+
+
+
+            $(document).on("click touchstart", function () {
+                $("header .logged-in-menu li .sub-menu").slideUp(300);
+                $("header .logged-in-menu >ul> li").removeClass("active");
+
+            })
+
+
+
+
         },
 
 
@@ -170,15 +220,15 @@
 
         },
 
-        openOverlay: function () {
+        openOverlay: function (elemClass) {
             //  <span class="btn btn-purple btn-small close">X</span>
-            $(".overlay").addClass("active");
+            elemClass.addClass("active");
 
 
         },
-        closeOverlay: function () {
+        closeOverlay: function (elemClass) {
             //  <span class="btn btn-purple btn-small close">X</span>
-            $(".overlay").removeClass("active");
+            elemClass.removeClass("active");
 
 
         },
@@ -219,6 +269,7 @@
             app.mobileMenu();
             app.initBxSlider();
             app.viewTrends();
+            app.dropDownMenu();
         }
     };
 

@@ -19,6 +19,11 @@
   }
 }
 
+.listing-inner > li {
+
+  width: 29.6%;
+}
+
 .wardrobe-items {
   text-align: center;
   margin: 60px 0;
@@ -105,6 +110,41 @@
   .bx-prev {
     left: -40px;
 
+  }
+
+}
+
+.create-outfits {
+  //  margin-top: 20px;
+  position: relative;
+  bottom: -20px;
+  .btn {
+    margin: 0 20px;
+  }
+}
+
+.crop-cont {
+
+  .left-col {
+    width: 49%;
+  }
+  .right-col {
+    width: 49%;
+
+    .crop {
+      width: 100%;
+      float: left;
+      margin: 55px 0;
+      height: 350px;
+      background:  url(../images/crop-bg.jpg) 0 0 ;
+    }
+    .btn-group {
+      width: 100%;
+      float: left;
+      .btn{
+        margin-left: 15px;
+      }
+    }
   }
 
 }
