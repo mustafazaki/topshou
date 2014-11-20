@@ -56,10 +56,18 @@
 
 
         addEventListner: function () {
+            $("header .sub-menu li").click(function () {
+                    var $this = $(this),
+                        href = $this.find("a").attr("href");
+                    if (href != undefined) {
+                        window.location = href;
+                        return false;
+                    }
+            });
+
             $(".overlay .close").click(function () {
                 app.closeOverlay()
             });
-
         },
 
 

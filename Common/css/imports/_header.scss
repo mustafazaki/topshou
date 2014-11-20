@@ -40,29 +40,70 @@ header {
       width: 100%;
 
     }
-    &:after{
-      @include content(1000px,102%,0,0,"","");
+    &:after {
+      @include content(1000px, 102%, 0, 0, "", "");
       background: $purple;
       z-index: -1;
     }
   }
 
-
-
   .logged-in-menu {
 
     margin-top: 45px;
 
+    .sub-menu {
+      position: absolute;
+      display: none;
+      right: 0;
+      z-index: 1;
+      top: 48px;
+      background: $light-grey;
+      width: 430px;
+      h4 {
+        font-size: 16px;
+        color: $purple;
+        margin: 0;
+        padding: 10px;
+
+        //  background: #ffffff;
+      }
+      li {
+        width: 100%;
+        padding: 10px;
+        background: $light-grey;
+        border-top: 1px solid $grey;
+        margin-left: 0;
+        cursor: pointer;
+        color: $purple;
+        font: normal 16px $seogeui-regular;
+        img {
+          float: left;
+          width: 45px;
+          margin-right: 5px;
+        }
+        &.last {
+          background: $purple;
+          color: #fff;
+          text-align: center;
+          border: none;
+
+        }
+      }
+
+    }
 
     li {
       float: left;
       font: 20px $seogeui-semibold;
-      margin-left: 25px;
-
+      margin-left: 15px;
+      position: relative;
+      padding: 5px 5px 10px;
       color: #d4d3d0;
-      a{
+      a {
         @extend .transition;
-
+      }
+      &.active {
+        background-color: $light-grey;
       }
 
     }
@@ -79,11 +120,10 @@ header {
         }
       }
 
-      a:first-of-type{
+      a:first-of-type {
         position: relative;
         padding-right: 13px;
         margin: 0 7px 0 5px;
-        
 
         &:after {
           @include content(3px, 18px, 5px, 0, "", "");
@@ -93,26 +133,25 @@ header {
       }
     }
 
-    .friends a{
+    .friends a {
       background-position: -265px 0;
-      @include widthHeight(26px,33px);
+      @include widthHeight(26px, 33px);
     }
-    .messages a{
+    .messages a {
       background-position: -194px 0;
       @include widthHeight(29px, 21px);
       margin-top: 8px;
 
     }
-    .notification a{
+    .notification a {
       background-position: -223px 0;
       @include widthHeight(40px, 24px);
       margin-top: 5px;
     }
   }
 
-  .dropdown{
-    @include absolute(0,"","",0);
-
+  .dropdown {
+    @include absolute(0, "", "", 0);
 
   }
 }
