@@ -1,7 +1,7 @@
 @import "../../bourbon/bourbon";
 @import "functions";
 
-.edit-profile {
+.edit-profile,.blogger {
   .left-col, .right-col {
     width: 48%;
   }
@@ -56,5 +56,17 @@
       height: 206px;
     }
   }
+
+}
+
+.blogger{
+
+  .about-cont, .share-post {
+    width: 50%;
+
+    margin: 0 auto;
+  }
+
+
 
 }

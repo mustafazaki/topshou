@@ -1792,21 +1792,21 @@ header {
   text-decoration: none; }
 
 /* line 5, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
-.edit-profile .left-col, .edit-profile .right-col {
+.edit-profile .left-col, .edit-profile .right-col, .blogger .left-col, .blogger .right-col {
   width: 48%; }
 /* line 9, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
-.edit-profile .about-cont {
+.edit-profile .about-cont, .blogger .about-cont {
   position: relative;
   padding: 10px 35px;
   margin-bottom: 0; }
   /* line 13, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
-  .edit-profile .about-cont h3 {
+  .edit-profile .about-cont h3, .blogger .about-cont h3 {
     margin-bottom: 20px; }
 /* line 18, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
-.edit-profile .detail {
+.edit-profile .detail, .blogger .detail {
   position: relative; }
 /* line 21, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
-.edit-profile .social-icons {
+.edit-profile .social-icons, .blogger .social-icons {
   -webkit-transform: scale(0.7);
   -moz-transform: scale(0.7);
   -ms-transform: scale(0.7);
@@ -1843,6 +1843,11 @@ header {
     .post-shared .post-detail .thumb {
       width: 100%;
       height: 206px; }
+
+/* line 64, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+.blogger .about-cont, .blogger .share-post {
+  width: 50%;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1100px) {
   /* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
