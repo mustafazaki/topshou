@@ -4,7 +4,7 @@
 
 .about-cont {
 
-  width: 1084px;
+  max-width: 1084px;
   border: 1px solid $grey;
   padding: 35px;
   @extend .box-sizing;

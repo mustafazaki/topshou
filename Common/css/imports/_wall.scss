@@ -115,6 +115,129 @@
 
 }
 
+.share-post {
+  background: #f6f7f8;
+  border: 1px solid $grey;
+  font-family: $seogeui-semibold;
+  color: #737272;
+
+  .head {
+    font-size: 18px;
+    padding: 15px 0 20px 25px;
+    border-bottom: 1px solid $grey;
+  }
+
+  textarea {
+    width: 100%;
+    height: 75px;
+    border: none;
+    outline: none;
+
+    padding: 10px 25px;
+    resize: none;
+
+  }
+
+  .foot {
+    padding: 20px 30px 20px 30px;
+    border-top: 1px solid $grey;
+    .pull-left {
+      width: 70%;
+
+    }
+    .left {
+      float: left;
+      width: 22%;
+    }
+    .right {
+      float: right;
+      width: 75%;
+    }
+
+    em {
+      background: #88c5da;
+      display: inline-block;
+      padding: 5px 3px;
+      margin-bottom: 5px;
+
+      color: #fff;
+      font: normal 14px $seogeui-regular;
+      sub {
+        margin: 0 8px 0 8px;
+        float: right;
+      }
+
+    }
+    .share-with {
+      width: 15px;
+      height: 15px;
+      background-position: -429px -50px;
+      float: left;
+      clear: left;
+      margin-top: 15px;
+
+    }
+  }
+  .btn {
+    font: 15px $seogeui-regular;
+    padding: 5px 24px;
+
+  }
+
+}
+
+.post-detail {
+  margin-top: 55px;
+
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid $grey;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  @extend .box-sizing;
+
+  padding: 10px 20px 70px;
+
+  h4 {
+    width: 80%;
+    color: #737272;
+    margin-bottom: 40px;
+    font-family: $seogeui-semibold;
+    small {
+      display: block;
+    }
+  }
+  span {
+    color: #737272;
+    font: 18px $seogeui-semibold;
+    @include absolute(20px, 20px, "", "");
+
+    cursor: pointer;
+
+  }
+  .bx-wrapper {
+    .bx-next, .bx-prev {
+      @include widthHeight(40px, 40px);
+      background: $purple;
+      color: #fff;
+      display: block;
+      font: 20px/36px $seogeui-semibold;
+      text-align: center;
+      @include absolute(50%, 20px, "", "");
+      margin-top: -10px;
+      @extend .transition;
+    }
+    .bx-prev {
+      left: 20px;
+    }
+    img {
+      max-width: 100%;
+    }
+
+  }
+
+}
 .profile-detail {
 
   .left-col {
@@ -122,130 +245,8 @@
     margin-left: percentage(120px/$layout-width);
 
   }
-  .share-post {
-    background: #f6f7f8;
-    border: 1px solid $grey;
-    font-family: $seogeui-semibold;
-    color: #737272;
 
-    .head {
-      font-size: 18px;
-      padding: 15px 0 20px 25px;
-      border-bottom: 1px solid $grey;
-    }
 
-    textarea {
-      width: 100%;
-      height: 75px;
-      border: none;
-      outline: none;
-
-      padding: 10px 25px;
-      resize: none;
-
-    }
-
-    .foot {
-      padding: 20px 30px 20px 30px;
-      border-top: 1px solid $grey;
-      .pull-left {
-        width: 70%;
-
-      }
-      .left {
-        float: left;
-        width: 22%;
-      }
-      .right {
-        float: right;
-        width: 75%;
-      }
-
-      em {
-        background: #88c5da;
-        display: inline-block;
-        padding: 5px 3px;
-        margin-bottom: 5px;
-
-        color: #fff;
-        font: normal 14px $seogeui-regular;
-        sub {
-          margin: 0 8px 0 8px;
-          float: right;
-        }
-
-      }
-      .share-with {
-        width: 15px;
-        height: 15px;
-        background-position: -429px -50px;
-        float: left;
-        clear: left;
-        margin-top: 15px;
-
-      }
-    }
-    .btn {
-      font: 15px $seogeui-regular;
-
-      padding: 5px 24px;
-
-    }
-
-  }
-
-  .post-detail {
-    margin-top: 55px;
-
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    border: 1px solid $grey;
-    background: #fff;
-    border-radius: 5px;
-    width: 100%;
-    position: relative;
-    @extend .box-sizing;
-
-    padding: 10px 20px 70px;
-
-    h4 {
-      width: 80%;
-      color: #737272;
-      margin-bottom: 40px;
-      font-family: $seogeui-semibold;
-      small {
-        display: block;
-      }
-    }
-    span {
-      color: #737272;
-      font: 18px $seogeui-semibold;
-      @include absolute(20px, 20px, "", "");
-
-      cursor: pointer;
-
-    }
-    .bx-wrapper {
-      .bx-next, .bx-prev {
-        @include widthHeight(40px, 40px);
-        background: $purple;
-        color: #fff;
-        display: block;
-        font: 20px/36px $seogeui-semibold;
-        text-align: center;
-        @include absolute(50%, 20px, "", "");
-        margin-top: -10px;
-        @extend .transition;
-      }
-      .bx-prev {
-        left: 20px;
-      }
-      img {
-        max-width: 100%;
-      }
-
-    }
-
-  }
 
   .right-col {
     width: percentage(395px/$layout-width);

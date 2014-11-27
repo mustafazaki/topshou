@@ -1,0 +1,40 @@
+@import "../../bourbon/bourbon";
+@import "functions";
+
+.edit-profile {
+  .left-col,.right-col {
+    width: 48%;
+  }
+
+  .about-cont{
+    position: relative;
+    padding: 10px 35px;
+    margin-bottom: 0;
+    h3{
+      margin-bottom: 20px;
+
+    }
+  }
+  .detail{
+    position: relative;
+  }
+  .social-icons{
+    @include transform(scale(0.7));
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    @include transform-origin(left center);
+
+
+  }
+
+}
+
+.post-shared {
+  float: left;
+  width: 100%;
+
+
+
+
+}

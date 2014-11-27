@@ -236,7 +236,7 @@
 
         initBxSlider: function () {
             //bt-menu-open
-            $(".post-slider").bxSlider({
+            $(".profile-detail .post-slider").bxSlider({
                 pager: false,
                 nextText: ">",
                 prevText: "<",
