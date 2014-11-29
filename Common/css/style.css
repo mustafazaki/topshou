@@ -16,197 +16,197 @@
  * Config saved to config.json and https://gist.github.com/fa9575185ab3a08ddba3
  */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/* line 12, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 12, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-/* line 18, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 18, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 body {
   margin: 0; }
 
-/* line 33, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 33, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
-/* line 40, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 40, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 audio, canvas, progress, video {
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 45, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 45, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 51, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 51, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 [hidden], template {
   display: none; }
 
-/* line 55, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 55, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 a {
   background: transparent; }
 
-/* line 60, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 a:active, a:hover {
   outline: 0; }
 
-/* line 64, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 64, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 69, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 69, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 b, strong {
   font-weight: bold; }
 
-/* line 73, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 73, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 dfn {
   font-style: italic; }
 
-/* line 77, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 77, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 82, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 82, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 87, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 87, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 small {
   font-size: 80%; }
 
-/* line 93, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 93, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 sup {
   top: -0.5em; }
 
-/* line 99, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 99, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 img {
   border: 0; }
 
-/* line 103, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 103, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 107, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 107, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 figure {
   margin: 1em 40px; }
 
-/* line 111, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 111, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
-/* line 117, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 117, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 pre {
   overflow: auto; }
 
-/* line 124, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 124, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-/* line 133, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 133, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button, input, optgroup, select, textarea {
   color: inherit;
   font: inherit;
   margin: 0; }
 
-/* line 139, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 139, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button {
   overflow: visible; }
 
-/* line 144, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 144, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button, select {
   text-transform: none; }
 
-/* line 151, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 151, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 157, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 157, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button[disabled], html input[disabled] {
   cursor: default; }
 
-/* line 162, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 162, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 167, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 167, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input {
   line-height: normal; }
 
-/* line 172, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 172, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-/* line 178, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 178, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-/* line 182, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 182, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 190, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 190, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 194, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 194, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 200, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 200, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 legend {
   border: 0;
   padding: 0; }
 
-/* line 205, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 205, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 textarea {
   overflow: auto; }
 
-/* line 209, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 209, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 optgroup {
   font-weight: bold; }
 
-/* line 213, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 213, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 219, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 219, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 td, th {
   padding: 0; }
 
-/* line 223, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 223, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 230, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 230, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 236, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 236, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-/* line 241, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 241, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -214,20 +214,20 @@ body {
   color: #333333;
   background-color: #ffffff; }
 
-/* line 252, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 252, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
 
-/* line 258, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 258, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
-/* line 265, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 265, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -238,7 +238,7 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-/* line 277, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 277, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
@@ -247,124 +247,124 @@ hr {
   overflow: visible;
   clip: auto; }
 
-/* line 297, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 297, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
 
-/* line 327, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 327, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
   font-weight: normal;
   line-height: 1;
   color: inherit; }
 
-/* line 338, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 338, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
 
-/* line 354, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 354, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
   font-size: 65%; }
 
-/* line 363, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 363, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-/* line 379, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 379, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .small, h5 .small, .h5 .small, h6 .small, .h6 .small {
   font-size: 75%; }
 
-/* line 384, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 384, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h1, .h1 {
   font-size: 36px; }
 
-/* line 389, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 389, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h2, .h2 {
   font-size: 30px; }
 
-/* line 394, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 394, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h3, .h3 {
   font-size: 24px; }
 
-/* line 399, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 399, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h4, .h4 {
   font-size: 18px; }
 
-/* line 404, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 404, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h5, .h5 {
   font-size: 14px; }
 
-/* line 409, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 409, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 h6, .h6 {
   font-size: 12px; }
 
-/* line 413, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 413, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 p {
   margin: 0 0 10px; }
 
-/* line 418, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 418, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 small, .small {
   font-size: 85%; }
 
-/* line 423, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 423, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 ul, ol {
   margin-top: 0;
   margin-bottom: 10px; }
 
-/* line 431, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 431, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 ul ul, ol ul, ul ol, ol ol {
   margin-bottom: 0; }
 
-/* line 435, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 435, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .list-unstyled {
   padding-left: 0;
   list-style: none;
   margin: 0; }
 
-/* line 446, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 446, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .list-inline {
   padding-left: 0;
   list-style: none;
   margin-left: -5px; }
 
-/* line 452, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 452, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px; }
 
-/* line 461, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 461, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after {
   content: " ";
   display: table; }
 
-/* line 467, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 467, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .clearfix:after, .dl-horizontal dd:after {
   clear: both; }
 
-/* line 471, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 471, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 477, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 477, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .hide {
   display: none !important; }
 
-/* line 481, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 481, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .show {
   display: block !important; }
 
-/* line 485, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 485, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .invisible {
   visibility: hidden; }
 
-/* line 489, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 489, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -372,81 +372,81 @@ ul ul, ol ul, ul ol, ol ol {
   background-color: transparent;
   border: 0; }
 
-/* line 497, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 497, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .hidden {
   display: none !important;
   visibility: hidden !important; }
 
-/* line 502, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 502, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 507, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 507, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 a {
   color: inherit;
   text-decoration: none; }
 
-/* line 513, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 513, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0; }
 
-/* line 518, E:/Mustafa/Practice/topshou/Common/css/imports/_reset */
+/* line 518, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_reset */
 input[type=number] {
   -moz-appearance: textfield; }
 
-/* line 12, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 12, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 body {
   font: 14px "SegoeUI";
   overflow-x: hidden;
   color: #b1b2b2; }
 
-/* line 19, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 19, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 body.pushy-active {
   overflow-x: hidden !important; }
 
-/* line 24, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 24, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .center {
   margin: 0 auto;
   max-width: 1240px;
   width: 100%; }
 
-/* line 30, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 30, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .wrapper {
   height: 100%; }
 
-/* line 35, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 35, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .mobile {
   display: none; }
 
-/* line 39, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 39, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .transition, .btn, .social-icons a, .cover .about, .post-detail .bx-wrapper .bx-next, .post-detail .bx-wrapper .bx-prev, header nav ul li, header .logged-in-menu li a, .intro .btn-round, .wardrobe-items .bx-next, .wardrobe-items .bx-prev {
   -webkit-transition: all 0.2s cubic-bezier(0.17, 0.48, 0.89, 0.6);
   -moz-transition: all 0.2s cubic-bezier(0.17, 0.48, 0.89, 0.6);
   transition: all 0.2s cubic-bezier(0.17, 0.48, 0.89, 0.6); }
 
-/* line 44, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 44, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .box-sizing, .cover .thumb, .post-detail, .grid-section .grid, .product-list li, .about-cont, .listing > li, .profile-info input:not([type="radio"]), .profile-info textarea, .overlay .content, .overlay input:not([type="radio"]), .overlay textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 49, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 49, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 section, header, footer {
   float: left;
   width: 100%; }
 
-/* line 54, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 54, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .sprite {
   background: url(../images/sprite.png) 0 0 no-repeat; }
 
-/* line 58, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 58, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 span.sprite, a.sprite {
   display: inline-block; }
 
-/* line 62, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 62, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .btn {
   background: #4b4e4f;
   background: #38264d;
@@ -454,35 +454,35 @@ span.sprite, a.sprite {
   padding: 14px 39px;
   color: #fff; }
 
-/* line 71, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 71, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .btn-small {
   font-size: 20px;
   padding: 8px 39px; }
 
-/* line 77, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 77, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .btn-grey {
   background: #4b4e4f; }
 
-/* line 81, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 81, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .btn-round {
   border-radius: 100%;
   color: #fff;
   font: 16px "SegoeUI-Semibold";
   display: inline-block; }
 
-/* line 88, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 88, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .pull-left {
   float: left; }
 
-/* line 92, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 92, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .pull-right {
   float: right; }
 
-/* line 96, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 96, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .search-bar {
   position: relative;
   margin: 40px 0 0 25px; }
-  /* line 101, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+  /* line 101, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
   .search-bar input {
     background: #f7f5f5;
     font-size: 18px;
@@ -491,7 +491,7 @@ span.sprite, a.sprite {
     outline: none;
     padding: 9.5px 50px 9.5px 10px;
     width: 310px; }
-  /* line 111, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+  /* line 111, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
   .search-bar span {
     width: 30px;
     height: 30px;
@@ -500,20 +500,20 @@ span.sprite, a.sprite {
     top: 6px;
     right: 11px; }
 
-/* line 119, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 119, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .error {
   color: red !important; }
-  /* line 122, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+  /* line 122, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
   .error input {
     border-color: red !important; }
-  /* line 125, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+  /* line 125, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
   .error label {
     color: red !important; }
 
-/* line 131, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 131, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .thumb {
   position: relative; }
-  /* line 134, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+  /* line 134, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
   .thumb img {
     position: absolute;
     left: 50%;
@@ -526,53 +526,53 @@ span.sprite, a.sprite {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
-/* line 139, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 139, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .grid-cont .grid {
   display: none;
   /*wait until images finishes loading then display it*/ }
 
-/* line 143, E:/Mustafa/Practice/topshou/Common/css/style.scss */
+/* line 143, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/style.scss */
 .btn-blue {
   background-color: #85c6dc; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
 footer {
   background: #ecf0f1;
   margin-top: 45px; }
-  /* line 7, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+  /* line 7, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
   footer p {
     font-size: 15px;
     margin: 48px 15px 0 0; }
 
-/* line 23, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+/* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
 .social-icons {
   margin: 40px 0 0 0px; }
-  /* line 26, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+  /* line 26, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
   .social-icons a {
     display: inline-block;
     width: 37px;
     height: 38px;
     margin-right: 10px; }
-    /* line 31, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+    /* line 31, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
     .social-icons a.tw {
       background-position: -31px 0; }
-    /* line 34, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+    /* line 34, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
     .social-icons a.fb {
       background-position: -68px 0; }
-    /* line 37, E:/Mustafa/Practice/topshou/Common/css/imports/_footer */
+    /* line 37, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_footer */
     .social-icons a.gp {
       background-position: -107px 0; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .cover {
   background: #88c5da;
   height: 285px;
   margin: -19px 0 100px; }
-  /* line 9, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 9, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .cover .center {
     position: relative;
     height: 100%; }
-  /* line 15, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 15, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .cover .thumb {
     float: left;
     width: 260px;
@@ -583,7 +583,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: -70px; }
-    /* line 23, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .cover .thumb .upload {
       width: 100%;
       height: 39px;
@@ -592,7 +592,7 @@ footer {
       display: inline-block;
       cursor: pointer;
       margin-top: 250px; }
-    /* line 31, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 31, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .cover .thumb .pic {
       width: 44px;
       height: 34px;
@@ -600,7 +600,7 @@ footer {
       position: absolute;
       left: 8px;
       top: 18px; }
-  /* line 40, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 40, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .cover .name {
     font: 35px "SegoeUI-Semibold";
     color: #fff;
@@ -608,7 +608,7 @@ footer {
     left: 300px;
     bottom: 20px;
     padding-right: 100px; }
-  /* line 47, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 47, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .cover .about {
     width: 73px;
     height: 71px;
@@ -617,36 +617,36 @@ footer {
     position: relative;
     top: -13px; }
 
-/* line 60, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .profile-menu {
   text-align: center; }
-  /* line 63, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 63, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .profile-menu li {
     display: inline-block;
     margin: 50px 10px; }
-    /* line 67, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 67, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li a {
       width: 142px;
       height: 142px;
       position: relative;
       background-color: #b1b2b2; }
-      /* line 72, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+      /* line 72, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
       .profile-menu li a.active {
         background-color: #38264d; }
-      /* line 76, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+      /* line 76, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
       .profile-menu li a:after {
         background-image: url(../images/sprite.png);
         -webkit-transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in; }
-    /* line 82, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 82, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li span {
       position: absolute;
       left: 0;
       bottom: 36px;
       width: 100%;
       text-align: center; }
-    /* line 88, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 88, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li .wall:after {
       content: "";
       width: 58px;
@@ -656,7 +656,7 @@ footer {
       top: 28px;
       margin-left: -29px;
       background-position: 0 -41px; }
-    /* line 93, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 93, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li .wardrobe:after {
       content: "";
       width: 61px;
@@ -666,7 +666,7 @@ footer {
       top: 28px;
       margin-left: -30.5px;
       background-position: -61px -41px; }
-    /* line 98, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 98, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li .friends:after {
       content: "";
       width: 56px;
@@ -676,7 +676,7 @@ footer {
       top: 28px;
       margin-left: -28px;
       background-position: -124px -41px; }
-    /* line 103, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 103, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li .market:after {
       content: "";
       width: 53px;
@@ -686,7 +686,7 @@ footer {
       top: 28px;
       margin-left: -29px;
       background-position: -183 -41px; }
-    /* line 108, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 108, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .profile-menu li .shop:after {
       content: "";
       width: 50px;
@@ -697,18 +697,18 @@ footer {
       margin-left: -25px;
       background-position: -238px -41px; }
 
-/* line 118, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 118, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .share-post {
   background: #f6f7f8;
   border: 1px solid #b1b2b2;
   font-family: "SegoeUI-Semibold";
   color: #737272; }
-  /* line 124, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 124, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .share-post .head {
     font-size: 18px;
     padding: 15px 0 20px 25px;
     border-bottom: 1px solid #b1b2b2; }
-  /* line 130, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 130, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .share-post textarea {
     width: 100%;
     height: 75px;
@@ -716,22 +716,25 @@ footer {
     outline: none;
     padding: 10px 25px;
     resize: none; }
-  /* line 141, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 141, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .share-post .foot {
     padding: 20px 30px 20px 30px;
     border-top: 1px solid #b1b2b2; }
-    /* line 144, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 144, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .share-post .foot .pull-left {
       width: 70%; }
-    /* line 148, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 148, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .share-post .foot .left {
       float: left;
       width: 22%; }
-    /* line 152, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+      /* line 151, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
+      .share-post .foot .left span {
+        display: block; }
+    /* line 155, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .share-post .foot .right {
       float: right;
       width: 75%; }
-    /* line 157, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 160, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .share-post .foot em {
       background: #88c5da;
       display: inline-block;
@@ -739,11 +742,11 @@ footer {
       margin-bottom: 5px;
       color: #fff;
       font: normal 14px "SegoeUI"; }
-      /* line 165, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+      /* line 168, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
       .share-post .foot em sub {
         margin: 0 8px 0 8px;
         float: right; }
-    /* line 171, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 174, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .share-post .foot .share-with {
       width: 15px;
       height: 15px;
@@ -751,12 +754,12 @@ footer {
       float: left;
       clear: left;
       margin-top: 15px; }
-  /* line 181, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 184, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .share-post .btn {
     font: 15px "SegoeUI";
     padding: 5px 24px; }
 
-/* line 189, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 192, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .post-detail {
   margin-top: 55px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -766,16 +769,16 @@ footer {
   width: 100%;
   position: relative;
   padding: 10px 20px 70px; }
-  /* line 202, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 205, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .post-detail h4 {
     width: 80%;
     color: #737272;
     margin-bottom: 40px;
     font-family: "SegoeUI-Semibold"; }
-    /* line 207, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 210, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .post-detail h4 small {
       display: block; }
-  /* line 211, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 214, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .post-detail span {
     color: #737272;
     font: 18px "SegoeUI-Semibold";
@@ -783,7 +786,7 @@ footer {
     top: 20px;
     right: 20px;
     cursor: pointer; }
-  /* line 220, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 223, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .post-detail .bx-wrapper .bx-next, .post-detail .bx-wrapper .bx-prev {
     width: 40px;
     height: 40px;
@@ -796,23 +799,23 @@ footer {
     top: 50%;
     right: 20px;
     margin-top: -10px; }
-  /* line 231, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 234, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .post-detail .bx-wrapper .bx-prev {
     left: 20px; }
-  /* line 234, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 237, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .post-detail .bx-wrapper img {
     max-width: 100%; }
 
-/* line 243, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 247, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .profile-detail .left-col {
   width: 44.3548387097%;
   margin-left: 9.6774193548%; }
-/* line 251, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 253, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .profile-detail .right-col {
   width: 31.8548387097%;
   margin-right: 9.2741935484%; }
 
-/* line 264, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 265, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .feedback {
   width: 142px;
   height: 142px;
@@ -822,7 +825,7 @@ footer {
   background-color: #38264d;
   margin-top: -71px;
   z-index: 9999; }
-  /* line 274, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 275, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .feedback:after {
     background: url(../images/sprite.png) -429px 0;
     content: "";
@@ -835,7 +838,7 @@ footer {
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in; }
-  /* line 282, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 283, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .feedback span {
     position: absolute;
     left: 0;
@@ -843,25 +846,37 @@ footer {
     width: 100%;
     text-align: center; }
 
-/* line 289, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+/* line 290, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
+.back-to-top {
+  top: auto;
+  bottom: 50px;
+  background: rgba(0, 0, 0, 0.7); }
+  /* line 294, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
+  .back-to-top:after {
+    background-position: -371px -79px;
+    width: 86px;
+    margin-left: -46px;
+    top: 45px; }
+
+/* line 304, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
 .friends-cont {
   background: #f6f7f8;
   float: left;
   width: 100%;
   border-radius: 3px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.69); }
-  /* line 295, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 310, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .friends-cont h5 {
     font: bold 16px arial;
     color: #535252;
     margin: 13px 15px; }
-  /* line 301, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 316, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .friends-cont ul {
     float: left;
     background: #fff;
     margin-bottom: 5px;
     width: 100%; }
-  /* line 308, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+  /* line 323, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
   .friends-cont li {
     float: left;
     width: calc(33.33% - 5px);
@@ -869,12 +884,12 @@ footer {
     position: relative;
     height: 0;
     padding-bottom: 32%; }
-    /* line 316, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 331, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .friends-cont li img {
       position: absolute;
       width: 100%;
       height: 100%; }
-    /* line 321, E:/Mustafa/Practice/topshou/Common/css/imports/_wall */
+    /* line 336, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wall */
     .friends-cont li span {
       position: absolute;
       left: 6px;
@@ -882,64 +897,74 @@ footer {
       color: #fff;
       font: bold 14px arial; }
 
-/* line 5, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+/* line 5, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
 .profile-friends .search-bar {
   margin: 0 auto;
   width: 465px; }
-  /* line 9, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+  /* line 9, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
   .profile-friends .search-bar input {
     width: 180px;
     margin-left: 15px; }
-  /* line 15, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+  /* line 15, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
   .profile-friends .search-bar .btn-small {
     position: relative;
     top: 2px; }
-/* line 22, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+/* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
 .profile-friends .friends-list {
   width: 100%;
   float: left;
   margin: 50px 0 70px; }
-  /* line 30, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+  /* line 30, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
   .profile-friends .friends-list li {
     width: 28.7096774194%;
     margin: 1.6129032258%;
     float: left;
     border: 1px solid #b1b2b2;
     display: table; }
-  /* line 38, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+  /* line 38, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
   .profile-friends .friends-list .thumb {
     width: 41%;
     height: 157px;
     display: table-cell;
     vertical-align: top; }
-  /* line 49, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+  /* line 49, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
   .profile-friends .friends-list .name {
     display: table-cell;
     width: 52%;
     padding-left: 15px;
     vertical-align: middle; }
-    /* line 55, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+    /* line 55, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
     .profile-friends .friends-list .name h4 {
       font-size: 21px;
       margin: 0; }
-    /* line 60, E:/Mustafa/Practice/topshou/Common/css/imports/_friends */
+    /* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_friends */
     .profile-friends .friends-list .name span {
       color: #38264d;
       font-size: 15px; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
 header {
-  height: 128px; }
-  /* line 11, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+  height: 128px;
+  position: relative; }
+  /* line 9, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
+  header .login-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    /* line 11, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
+    header .login-btn a {
+      display: inline-block;
+      background: #97999a; }
+  /* line 20, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
   header nav ul {
     margin-top: 65px; }
-    /* line 14, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header nav ul li {
       font-size: 18px;
       float: left;
       position: relative;
       padding: 0 20px; }
-      /* line 20, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 29, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header nav ul li:after {
         content: "";
         width: 1px;
@@ -948,19 +973,19 @@ header {
         top: 6px;
         right: 0;
         background: #b1b2b2; }
-      /* line 25, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 34, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header nav ul li:last-child {
         padding-right: 0; }
-        /* line 28, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+        /* line 37, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
         header nav ul li:last-child:after {
           display: none; }
-  /* line 37, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+  /* line 46, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
   header .logo-inner {
     position: relative; }
-    /* line 40, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 49, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logo-inner img {
       width: 100%; }
-    /* line 44, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 53, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logo-inner:after {
       content: "";
       width: 1000px;
@@ -970,10 +995,10 @@ header {
       right: 0;
       background: #38264d;
       z-index: -1; }
-  /* line 51, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+  /* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
   header .logged-in-menu {
     margin-top: 45px; }
-    /* line 55, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 64, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .sub-menu {
       position: absolute;
       display: none;
@@ -982,13 +1007,13 @@ header {
       top: 48px;
       background: #ecf0f1;
       width: 430px; }
-      /* line 63, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 72, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header .logged-in-menu .sub-menu h4 {
         font-size: 16px;
         color: #38264d;
         margin: 0;
         padding: 10px; }
-      /* line 71, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 80, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header .logged-in-menu .sub-menu li {
         width: 100%;
         padding: 10px;
@@ -998,18 +1023,18 @@ header {
         cursor: pointer;
         color: #38264d;
         font: normal 16px "SegoeUI"; }
-        /* line 80, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+        /* line 89, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
         header .logged-in-menu .sub-menu li img {
           float: left;
           width: 45px;
           margin-right: 5px; }
-        /* line 85, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+        /* line 94, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
         header .logged-in-menu .sub-menu li.last {
           background: #38264d;
           color: #fff;
           text-align: center;
           border: none; }
-    /* line 96, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 105, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu li {
       float: left;
       font: 20px "SegoeUI-Semibold";
@@ -1017,26 +1042,26 @@ header {
       position: relative;
       padding: 5px 5px 15px;
       color: #d4d3d0; }
-      /* line 106, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 115, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header .logged-in-menu li.active {
         background-color: #ecf0f1; }
-    /* line 113, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 122, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .me span {
       width: 27px;
       height: 27px;
       background-position: -165px 0;
       position: relative;
       top: 5px; }
-      /* line 119, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 128, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header .logged-in-menu .me span img {
         width: 27px;
         height: 27px; }
-    /* line 124, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 133, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .me a:first-of-type {
       position: relative;
       padding-right: 13px;
       margin: 0 7px 0 5px; }
-      /* line 129, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+      /* line 138, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
       header .logged-in-menu .me a:first-of-type:after {
         content: "";
         width: 3px;
@@ -1045,75 +1070,151 @@ header {
         top: 5px;
         right: 0;
         background: #d4d3d0; }
-    /* line 137, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 146, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .friends a {
       background-position: -265px 0;
       width: 26px;
       height: 33px; }
-    /* line 141, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 150, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .messages a {
       background-position: -194px 0;
       width: 29px;
       height: 21px;
       margin-top: 8px; }
-    /* line 147, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 156, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .notification a {
       background-position: -223px 0;
       width: 40px;
       height: 24px;
       margin-top: 5px; }
-    /* line 152, E:/Mustafa/Practice/topshou/Common/css/imports/_header */
+    /* line 161, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_header */
     header .logged-in-menu .dropdown a {
       background-position: -325px 0;
       width: 17px;
       height: 9px;
       margin-top: 14px; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
 .banner {
-  height: 755px;
-  background: url("../images/home_bg.jpg") 0 0/100% no-repeat; }
-  /* line 10, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
+  position: relative; }
+  /* line 9, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .banner-img {
+    width: 100%; }
+  /* line 12, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .right-col {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  /* line 17, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
   .banner .logo {
     margin-top: 20px; }
-    /* line 12, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
+    /* line 19, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
     .banner .logo img {
       width: 100%; }
-  /* line 16, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
+  /* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
   .banner .player {
     margin: 100px auto 60px;
     width: 542px;
     height: 0;
     padding-top: 36.5%;
     position: relative; }
-    /* line 24, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
+    /* line 31, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
     .banner .player img, .banner .player iframe {
       position: absolute;
       left: 0;
       top: 0;
       width: 100%;
       height: 100%; }
-  /* line 33, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
-  .banner .btn-group {
+  /* line 41, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .login-btn {
     width: 100%;
     text-align: center; }
-    /* line 37, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
-    .banner .btn-group a {
-      margin: 0 5px; }
-      /* line 39, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
-      .banner .btn-group a span {
-        display: inline-block;
-        background-position: -14px 0;
-        width: 12px;
-        height: 21px;
-        margin: 0 5px; }
-      /* line 47, E:/Mustafa/Practice/topshou/Common/css/imports/_banner */
-      .banner .btn-group a:last-child span {
-        background-position: 0 0;
-        width: 11px;
-        height: 22px; }
+  /* line 45, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .registration {
+    text-align: center; }
+    /* line 48, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration img {
+      margin: 90px 0; }
+    /* line 52, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration input[type="text"], .banner .registration input[type="email"] {
+      width: 330px;
+      font-size: 18px;
+      height: 52px;
+      border: 2px solid #b7b7b7;
+      padding: 5px 10px;
+      margin-right: 10px;
+      float: left; }
+    /* line 62, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration .btn {
+      border: none;
+      outline: none;
+      padding: 10px 15px;
+      float: left; }
+    /* line 69, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration .register {
+      position: relative;
+      width: 458px;
+      margin: 0 auto; }
+    /* line 74, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration span.error {
+      position: absolute;
+      left: 0;
+      bottom: -20px; }
+    /* line 80, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .registration p {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 25px;
+      color: #303030;
+      width: 100%; }
+      /* line 85, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+      .banner .registration p a {
+        color: #0053fb;
+        text-decoration: underline; }
+  /* line 91, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .wardrobe {
+    text-align: center; }
+    /* line 93, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .wardrobe img {
+      margin-top: 40px; }
+  /* line 97, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .wall {
+    text-align: center; }
+    /* line 99, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .wall img {
+      margin-top: 80px; }
+  /* line 103, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .outfits {
+    text-align: right; }
+    /* line 105, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .outfits img {
+      margin-top: 80px; }
+  /* line 110, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .banner .trends {
+    text-align: center; }
+    /* line 112, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+    .banner .trends img {
+      margin-top: 80px; }
 
-/* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 121, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+.login-btn a {
+  margin: 0 5px; }
+  /* line 123, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .login-btn a span {
+    display: inline-block;
+    background-position: -14px 0;
+    width: 12px;
+    height: 21px;
+    margin: 0 5px; }
+  /* line 131, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_banner */
+  .login-btn a:last-child span {
+    background-position: 0 0;
+    width: 11px;
+    height: 22px; }
+
+/* line 6, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-trigger {
   position: absolute;
   top: 11px;
@@ -1123,7 +1224,7 @@ header {
   width: 30px;
   height: 24px;
   cursor: pointer; }
-  /* line 18, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+  /* line 18, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
   .bt-menu-trigger sub {
     font-size: 23px;
     color: #000;
@@ -1131,7 +1232,7 @@ header {
     display: block;
     margin-top: -9px; }
 
-/* line 29, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 29, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-trigger span {
   position: absolute;
   top: 50%;
@@ -1153,11 +1254,11 @@ header {
   -o-transition: background-color 0.5s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: background-color 0.5s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
 
-/* line 54, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 54, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-open span {
   background-color: transparent; }
 
-/* line 59, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 59, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-trigger span:before, .bt-menu-trigger span:after {
   position: absolute;
   left: 0;
@@ -1168,27 +1269,27 @@ header {
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s; }
 
-/* line 71, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 71, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-trigger span:before {
   -webkit-transform: translateY(-250%);
   transform: translateY(-250%); }
 
-/* line 76, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 76, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-trigger span:after {
   -webkit-transform: translateY(250%);
   transform: translateY(250%); }
 
-/* line 81, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 81, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-open span:before {
   -webkit-transform: translateY(0) rotate(45deg);
   transform: translateY(0) rotate(45deg); }
 
-/* line 86, E:/Mustafa/Practice/topshou/Common/css/imports/_btn */
+/* line 86, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_btn */
 .bt-menu-open span:after {
   -webkit-transform: translateY(0) rotate(-45deg);
   transform: translateY(0) rotate(-45deg); }
 
-/* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 6, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .grid-section h2 {
   width: 100%;
   text-align: center;
@@ -1196,7 +1297,7 @@ header {
   color: #000;
   font-size: 30px;
   margin: 70px 0; }
-  /* line 14, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 14, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .grid-section h2:after {
     content: "";
     width: 100px;
@@ -1205,7 +1306,7 @@ header {
     top: 21px;
     right: 30%;
     background: #b1b2b2; }
-  /* line 18, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 18, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .grid-section h2:before {
     content: "";
     width: 100px;
@@ -1214,17 +1315,17 @@ header {
     left: 30%;
     top: 21px;
     background: #b1b2b2; }
-/* line 24, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 24, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .grid-section .grid-cont {
   width: 105%; }
-/* line 29, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 29, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .grid-section .grid {
   width: 240px;
   border-radius: 5px;
   box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 7px 7px 25px;
   margin: 0 5px 10px; }
-  /* line 36, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 36, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .grid-section .grid img {
     width: 100%;
     position: static;
@@ -1233,18 +1334,18 @@ header {
     -ms-transform: none;
     -o-transform: none;
     transform: none; }
-/* line 44, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 44, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .grid-section .btn-group {
   text-align: center;
   margin: 40px 0 15px; }
-/* line 49, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 49, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .grid-section .view-trends {
   display: none;
   /*wait until images finishes loading then display it*/ }
-  /* line 52, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 52, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .grid-section .view-trends.active {
     position: relative; }
-    /* line 54, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+    /* line 54, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
     .grid-section .view-trends.active:after {
       content: "";
       width: 100%;
@@ -1253,15 +1354,18 @@ header {
       top: 0;
       right: 0;
       background: #38264d url(../images/loader.GIF) center no-repeat; }
+/* line 62, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
+.grid-section .trends-cta {
+  margin-top: -110px; }
 
-/* line 66, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+/* line 69, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
 .like-cmnt-cont li {
   float: left;
   position: relative;
   padding-left: 15px;
   margin: 22px 10px 0 0;
   cursor: pointer; }
-  /* line 73, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 76, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .like-cmnt-cont li:after {
     content: "";
     width: 14px;
@@ -1270,36 +1374,36 @@ header {
     left: 0;
     top: 4px;
     background: url(../images/sprite.png) -145px -15px; }
-  /* line 78, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 81, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .like-cmnt-cont li.comment:after {
     background-position: -145px -15px; }
-  /* line 85, E:/Mustafa/Practice/topshou/Common/css/imports/_grids */
+  /* line 88, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_grids */
   .like-cmnt-cont li.like:after {
     background-position: -145px 0px; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
 .intro {
   text-align: center; }
-  /* line 7, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 7, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .intro h1 {
     font: 48px "SegoeUI-Semibold";
     color: #38264d; }
-    /* line 10, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+    /* line 10, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
     .intro h1 small {
       display: block;
       font-family: "SegoeUI"; }
-  /* line 15, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 15, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .intro p {
     font-size: 30px;
     color: #696969;
     margin-bottom: 50px; }
-  /* line 22, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .intro input {
     border: none;
     outline: none;
     border-bottom: 1px solid #696969;
     width: 85px; }
-  /* line 30, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 30, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .intro .btn-round {
     width: 74px;
     height: 74px;
@@ -1307,12 +1411,12 @@ header {
     font-size: 24px;
     line-height: 71px; }
 
-/* line 40, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+/* line 40, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
 .product-list {
   width: 100%;
   float: left;
   margin: 0 0 70px; }
-  /* line 46, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 46, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .product-list li {
     width: 27.4193548387%;
     margin: 1.6129032258%;
@@ -1320,12 +1424,12 @@ header {
     padding: 7px 7px 15px 7px;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
     border-radius: 3px; }
-  /* line 56, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 56, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .product-list .thumb {
     width: 100%;
     height: 202px;
     margin-bottom: 25px; }
-    /* line 63, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+    /* line 63, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
     .product-list .thumb:after {
       content: "";
       width: 100%;
@@ -1335,50 +1439,50 @@ header {
       top: 0;
       background: url(../images/shadow.png) 0 0 no-repeat;
       background-size: 100% 100%; }
-  /* line 79, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 79, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .product-list .detail sub {
     font-size: 20px;
     bottom: 0; }
-  /* line 87, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 87, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .product-list .detail .tags {
     margin: 7px 0 7px -2px;
     color: #38264d;
     font-size: 16px; }
-    /* line 91, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+    /* line 91, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
     .product-list .detail .tags a {
       text-decoration: underline;
       margin: 0 2px; }
-  /* line 98, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+  /* line 98, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
   .product-list .detail .name {
     font-size: 18px; }
-    /* line 100, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+    /* line 100, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
     .product-list .detail .name h4 {
       margin: 0; }
-    /* line 104, E:/Mustafa/Practice/topshou/Common/css/imports/_marketPlace */
+    /* line 104, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_marketPlace */
     .product-list .detail .name small {
       font-size: 70%;
       margin-right: 5px; }
 
-/* line 5, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+/* line 5, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
 .about-cont {
   max-width: 1084px;
   border: 1px solid #b1b2b2;
   padding: 35px;
   margin-bottom: 250px; }
-  /* line 14, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+  /* line 14, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
   .about-cont .thumb {
     width: 300px;
     height: 300px;
     border: 5px solid #fff;
     margin-right: 30px;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); }
-  /* line 25, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+  /* line 25, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
   .about-cont li {
     color: #38264d;
     padding-left: 25px;
     margin-bottom: 10px;
     position: relative; }
-    /* line 30, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+    /* line 30, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
     .about-cont li:after {
       content: "";
       width: 20px;
@@ -1387,22 +1491,22 @@ header {
       left: 0;
       top: 3px;
       background: url("../images/sprite.png") -345px 0; }
-    /* line 36, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+    /* line 36, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
     .about-cont li:nth-child(2):after {
       background-position: -365px 0; }
-    /* line 39, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+    /* line 39, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
     .about-cont li:nth-child(3):after {
       background-position: -385px 0; }
-    /* line 42, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+    /* line 42, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
     .about-cont li:nth-child(4):after {
       left: 3px;
       background-position: -405px 0; }
-  /* line 50, E:/Mustafa/Practice/topshou/Common/css/imports/_about */
+  /* line 50, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_about */
   .about-cont h3 {
     margin-bottom: 30px;
     font-size: 30px; }
 
-/* line 5, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 5, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .listing > li {
   width: 15.8870967742%;
   margin: 1.814516129%;
@@ -1410,85 +1514,85 @@ header {
   padding: 5px 5px 15px;
   box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
   border-radius: 5px; }
-  /* line 13, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .listing > li .thumb {
     width: 100%;
     height: 112px; }
-  /* line 16, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 16, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .listing > li .like-cmnt-cont li {
     margin-top: 12px; }
 
-/* line 22, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .listing-inner > li {
   width: 29.6%; }
 
-/* line 27, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 27, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .wardrobe-items {
   text-align: center;
   margin: 60px 0; }
-  /* line 31, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 31, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .items-slider {
     background: #f6f7f9;
     border: 1px solid #b5b5b5;
     width: 1160px;
     text-align: center;
     margin: 50px 0 30px 26px; }
-  /* line 39, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 39, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .btn {
     margin: 100px 0; }
-  /* line 43, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 43, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items li a {
     background: url(../images/illustrator.jpg) no-repeat;
     width: 100px;
     height: 180px;
     display: block;
     float: left; }
-  /* line 51, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 51, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .tops a {
     background-position: 0 0; }
-  /* line 55, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 55, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .pants a {
     background-position: -100px 0; }
-  /* line 58, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 58, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .dresses a {
     background-position: -200px 0; }
-  /* line 61, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 61, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .skirts a {
     background-position: -300px 0; }
-  /* line 64, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 64, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .shorts a {
     background-position: -400px 0; }
-  /* line 67, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 67, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .jeans a {
     background-position: -500px 0; }
-  /* line 70, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 70, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .jacket a {
     background-position: -600px 0; }
-  /* line 73, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 73, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .sweater a {
     background-position: -700px 0; }
-  /* line 76, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 76, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .swinsuit a {
     background-position: -800px 0; }
-  /* line 79, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 79, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .outFit a {
     background-position: -900px 0; }
-  /* line 82, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 82, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .bags a {
     background-position: -1000px 0; }
-  /* line 85, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 85, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .shoes a {
     background-position: -1100px 0; }
-  /* line 88, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 88, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .accessories a {
     background-position: -1200px 0; }
-  /* line 91, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 91, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .beauty a {
     background-position: -1300px 0; }
-  /* line 94, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 94, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .bx-wrapper {
     position: relative; }
-  /* line 99, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 99, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .bx-next, .wardrobe-items .bx-prev {
     width: 40px;
     height: 40px;
@@ -1501,56 +1605,56 @@ header {
     position: absolute;
     top: 50%;
     right: -40px; }
-  /* line 110, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 110, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .wardrobe-items .bx-prev {
     left: -40px; }
 
-/* line 117, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 117, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .create-outfits {
   position: relative;
   bottom: -20px; }
-  /* line 121, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 121, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .create-outfits .btn {
     margin: 0 20px; }
 
-/* line 128, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 128, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .crop-cont .left-col {
   width: 49%; }
-/* line 131, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+/* line 131, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
 .crop-cont .right-col {
   width: 49%; }
-  /* line 134, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 134, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .crop-cont .right-col .crop {
     width: 100%;
     float: left;
     margin: 55px 0;
     height: 350px;
     background: url(../images/crop-bg.jpg) 0 0; }
-  /* line 141, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+  /* line 141, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
   .crop-cont .right-col .btn-group {
     width: 100%;
     float: left; }
-    /* line 144, E:/Mustafa/Practice/topshou/Common/css/imports/_wardrobe */
+    /* line 144, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_wardrobe */
     .crop-cont .right-col .btn-group .btn {
       margin-left: 15px; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
 .profile-info {
   width: 550px;
   margin: 0 auto 150px; }
-  /* line 8, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 8, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info li {
     margin-bottom: 10px; }
-  /* line 11, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 11, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info h1, .profile-info h2 {
     color: #38264d;
     font: 38px "SegoeUI-Semibold";
     margin: -38px 0 55px; }
-  /* line 17, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 17, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info h2 {
     text-align: center;
     margin: 30px 0 70px; }
-  /* line 23, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info input:not([type="radio"]), .profile-info textarea {
     width: 100%;
     border: 1px solid #b1b2b2;
@@ -1559,37 +1663,37 @@ header {
     color: #38264d;
     margin-top: 5px;
     padding: 7.5px 10px; }
-    /* line 8, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 8, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .profile-info input:not([type="radio"])::-webkit-input-placeholder, .profile-info textarea::-webkit-input-placeholder {
       color: #ffffff; }
-    /* line 13, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .profile-info input:not([type="radio"]):-moz-placeholder, .profile-info textarea:-moz-placeholder {
       color: #ffffff; }
-    /* line 17, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 17, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .profile-info input:not([type="radio"])::-moz-placeholder, .profile-info textarea::-moz-placeholder {
       color: #ffffff; }
-    /* line 22, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .profile-info input:not([type="radio"]):-ms-input-placeholder, .profile-info textarea:-ms-input-placeholder {
       color: #ffffff; }
-  /* line 39, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 39, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info textarea {
     height: 85px; }
-  /* line 43, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 43, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info .query {
     height: 140px; }
-  /* line 47, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 47, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info label {
     color: #38264d;
     font-size: 18px; }
-  /* line 52, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 52, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .profile-info .radio {
     font-size: 18px;
     color: #38264d;
     margin: 20px 0; }
-    /* line 57, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+    /* line 57, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
     .profile-info .radio input[type="radio"] {
       display: none; }
-    /* line 60, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+    /* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
     .profile-info .radio label {
       background: #fff;
       border: 1px solid #b1b2b2;
@@ -1599,11 +1703,11 @@ header {
       clear: both;
       margin-top: 10px;
       position: relative; }
-      /* line 70, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+      /* line 70, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
       .profile-info .radio label span {
         display: block;
         margin: -6px 0 0 22px; }
-    /* line 78, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+    /* line 78, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
     .profile-info .radio input[type="radio"]:checked + label:after {
       content: "";
       width: 7px;
@@ -1613,21 +1717,21 @@ header {
       top: 3px;
       background: #38264d; }
 
-/* line 86, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+/* line 86, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
 .map {
   width: 653px;
   margin: -40px auto 150px; }
-  /* line 94, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 94, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .map p {
     color: #38264d;
     font-size: 30px;
     text-align: center; }
-  /* line 100, E:/Mustafa/Practice/topshou/Common/css/imports/_info */
+  /* line 100, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_info */
   .map iframe {
     width: 100% !important;
     height: 350px !important; }
 
-/* line 4, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+/* line 4, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
 .overlay {
   visibility: hidden;
   opacity: 0;
@@ -1646,7 +1750,7 @@ header {
   left: 0;
   top: 0;
   z-index: 100; }
-  /* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 6, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay .close {
     padding: 8px 16px;
     position: absolute;
@@ -1655,7 +1759,7 @@ header {
     cursor: pointer;
     background: none !important;
     color: #b1b2b2; }
-  /* line 21, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 21, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay.active {
     -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
     -webkit-transition: transform 0.4s, opacity 0.4s;
@@ -1668,7 +1772,7 @@ header {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); }
-  /* line 30, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 30, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay .content {
     position: absolute;
     left: 50%;
@@ -1683,7 +1787,7 @@ header {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-  /* line 42, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 42, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay .fade {
     background: #000000;
     position: absolute;
@@ -1693,14 +1797,14 @@ header {
     top: 0;
     z-index: 1;
     opacity: 0.8; }
-  /* line 48, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 48, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay ul, .overlay .btn-group {
     width: 545px;
     margin: 0 auto; }
-    /* line 51, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+    /* line 51, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
     .overlay ul li, .overlay .btn-group li {
       margin-bottom: 10px; }
-  /* line 56, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 56, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay h3 {
     text-align: center;
     font: 30px "SegoeUI-Semibold";
@@ -1708,7 +1812,7 @@ header {
     border-bottom: 1px solid #b1b2b2;
     margin: 0px 0 30px;
     padding-bottom: 30px; }
-  /* line 65, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 65, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay input:not([type="radio"]), .overlay textarea {
     width: 100%;
     border: 1px solid #b1b2b2;
@@ -1717,95 +1821,95 @@ header {
     color: #38264d;
     margin-top: 5px;
     padding: 7.5px 10px; }
-    /* line 8, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 8, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .overlay input:not([type="radio"])::-webkit-input-placeholder, .overlay textarea::-webkit-input-placeholder {
       color: #ffffff; }
-    /* line 13, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .overlay input:not([type="radio"]):-moz-placeholder, .overlay textarea:-moz-placeholder {
       color: #ffffff; }
-    /* line 17, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 17, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .overlay input:not([type="radio"])::-moz-placeholder, .overlay textarea::-moz-placeholder {
       color: #ffffff; }
-    /* line 22, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+    /* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
     .overlay input:not([type="radio"]):-ms-input-placeholder, .overlay textarea:-ms-input-placeholder {
       color: #ffffff; }
-  /* line 81, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 81, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay textarea {
     height: 80px; }
-  /* line 86, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 86, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay label {
     color: #38264d;
     font-size: 18px; }
-  /* line 91, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 91, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .overlay p {
     font-size: 24px;
     text-align: center;
     color: #38264d; }
 
-/* line 101, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+/* line 101, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
 .inner-overlay .btn-group {
   margin: 40px auto;
   text-align: center; }
-  /* line 104, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+  /* line 104, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
   .inner-overlay .btn-group .btn {
     margin: 0 10px; }
-/* line 108, E:/Mustafa/Practice/topshou/Common/css/imports/_overlay */
+/* line 108, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_overlay */
 .inner-overlay input[type="search"], .inner-overlay input[type="text"] {
   width: 400px;
   margin: 0 auto 20px;
   border: none;
   display: block; }
-  /* line 8, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+  /* line 8, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
   .inner-overlay input[type="search"]::-webkit-input-placeholder, .inner-overlay input[type="text"]::-webkit-input-placeholder {
     color: #b1b2b2; }
-  /* line 13, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+  /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
   .inner-overlay input[type="search"]:-moz-placeholder, .inner-overlay input[type="text"]:-moz-placeholder {
     color: #b1b2b2; }
-  /* line 17, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+  /* line 17, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
   .inner-overlay input[type="search"]::-moz-placeholder, .inner-overlay input[type="text"]::-moz-placeholder {
     color: #b1b2b2; }
-  /* line 22, E:/Mustafa/Practice/topshou/Common/bourbon/css3/placeholder */
+  /* line 22, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/bourbon/css3/placeholder */
   .inner-overlay input[type="search"]:-ms-input-placeholder, .inner-overlay input[type="text"]:-ms-input-placeholder {
     color: #b1b2b2; }
 
-/* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 6, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch .profile-menu li a:hover:after, .no-touch .feedback:hover:after {
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
   transform: scale(0.8); }
-/* line 12, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 12, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch .btn:hover, .no-touch .intro .btn-round:hover, .no-touch .wardrobe-items .bx-next:hover, .no-touch .wardrobe-items .bx-prev:hover, .no-touch .profile-detail .post-detail .bx-wrapper .bx-next:hover, .no-touch .profile-detail .post-detail .bx-wrapper .bx-prev:hover {
   background: #b1b2b2; }
-/* line 16, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 16, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch .btn-grey:hover {
   background: #38264d; }
-/* line 19, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 19, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch .social-icons a:hover, .no-touch .cover .about:hover, .no-touch header .logged-in-menu li a:hover {
   opacity: 0.7; }
-/* line 25, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 25, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch header nav ul li:hover {
   color: #000; }
-/* line 28, E:/Mustafa/Practice/topshou/Common/css/imports/_hover */
+/* line 28, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_hover */
 .no-touch .product-list .detail .tags a:hover {
   text-decoration: none; }
 
-/* line 5, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 5, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .edit-profile .left-col, .edit-profile .right-col, .blogger .left-col, .blogger .right-col {
   width: 48%; }
-/* line 9, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 9, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .edit-profile .about-cont, .blogger .about-cont {
   position: relative;
   padding: 10px 35px;
   margin-bottom: 0; }
-  /* line 13, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+  /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
   .edit-profile .about-cont h3, .blogger .about-cont h3 {
     margin-bottom: 20px; }
-/* line 18, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 18, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .edit-profile .detail, .blogger .detail {
   position: relative; }
-/* line 21, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 21, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .edit-profile .social-icons, .blogger .social-icons {
   -webkit-transform: scale(0.7);
   -moz-transform: scale(0.7);
@@ -1821,74 +1925,74 @@ header {
   -o-transform-origin: left center;
   transform-origin: left center; }
 
-/* line 32, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 32, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .post-shared {
   float: left;
   width: 100%;
   margin-top: 30px; }
-  /* line 37, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+  /* line 37, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
   .post-shared .post-detail {
     width: 32.6612903226%;
     float: left;
     margin-top: 20px;
     padding: 10px 20px 10px; }
-    /* line 42, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+    /* line 42, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
     .post-shared .post-detail:nth-of-type(3n+2) {
       margin-left: 0.8064516129%;
       margin-right: 0.8064516129%; }
-    /* line 50, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+    /* line 50, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
     .post-shared .post-detail h4 {
       margin-bottom: 20px; }
-    /* line 54, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+    /* line 54, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
     .post-shared .post-detail .thumb {
       width: 100%;
       height: 206px; }
 
-/* line 64, E:/Mustafa/Practice/topshou/Common/css/imports/_edit-profile */
+/* line 64, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_edit-profile */
 .blogger .about-cont, .blogger .share-post {
   width: 50%;
   margin: 0 auto; }
 
 @media only screen and (max-width: 1100px) {
-  /* line 6, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 6, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .center {
     width: 100%;
     padding: 0 2%;
     margin: 0; }
 
-  /* line 13, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 13, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .logo-inner {
     width: 28%;
     height: 100%; }
-    /* line 16, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 16, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header .logo-inner img {
       margin-top: 13px; }
-  /* line 20, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 20, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .search-bar input {
     width: 200px; }
-  /* line 23, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 23, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .logged-in-menu li {
     margin-left: 15px; }
 
-  /* line 28, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 28, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .about-cont {
     width: 100%;
     margin-bottom: 30px; }
 
-  /* line 33, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 33, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends .friends-list .thumb {
     height: 117px; }
 
-  /* line 40, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 40, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-info h1, .profile-info h2 {
     margin: 30px 0; }
 
-  /* line 46, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 46, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .wardrobe-items .items-slider {
     width: 100%;
     margin-left: 0; }
 
-  /* line 52, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 52, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .feedback {
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
@@ -1901,145 +2005,182 @@ header {
     -o-transform-origin: center right;
     transform-origin: center right; }
 
-  /* line 57, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 57, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot .right {
     width: 66%; }
 
-  /* line 60, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 60, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot .left {
     width: 27%; }
 
-  /* line 63, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-  .banner {
-    height: 552px; }
-    /* line 65, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .pull-right {
-      width: 55%; }
-    /* line 69, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .player {
-      width: 80%;
-      margin-top: 30px;
-      padding-top: 52%; }
+  /* line 65, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .pull-right {
+    width: 55%; }
+  /* line 69, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .player {
+    width: 80%;
+    margin-top: 30px;
+    padding-top: 52%; }
+  /* line 77, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .trends img {
+    margin-top: 22px;
+    width: 100%; }
+  /* line 81, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .outfits img, .banner .wardrobe img {
+    width: 90%;
+    margin-top: 20px; }
+  /* line 85, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .wall img {
+    width: 70%;
+    margin-top: 20px; }
+  /* line 90, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration img {
+    width: 80%;
+    margin: 20px 0; }
+  /* line 94, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration p {
+    font-size: 20px; }
 
-  /* line 78, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 100, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section h2:before {
     left: 24%; }
 
-  /* line 81, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 103, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section h2:after {
     right: 24%; }
+
+  /* line 107, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .post-shared .post-detail .thumb {
+    height: 159px; }
+
+  /* line 110, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .blogger .about-cont, .blogger .share-post {
+    width: 70%; }
+
+  /* line 113, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .grid-section .trends-cta {
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right; }
  }
 
 @media only screen and (max-width: 900px) {
-  /* line 89, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 122, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .logo-inner {
     width: 35%; }
-  /* line 93, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 126, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .search-bar {
     margin-top: 10px; }
-    /* line 95, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 128, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header .search-bar input {
       width: 300px; }
-  /* line 99, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 132, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header .logged-in-menu {
     float: left;
     margin: 8px 0 0 10px; }
 
-  /* line 107, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 140, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-menu li {
     margin: 50px 5px; }
-    /* line 110, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 143, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-menu li a {
       width: 120px;
       height: 120px; }
-      /* line 113, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 146, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       .profile-menu li a span {
         bottom: 18px; }
-      /* line 117, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 150, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       .profile-menu li a:after {
         top: 20px !important; }
 
-  /* line 127, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 160, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .left-col {
     width: 55%;
     margin-left: 0; }
-  /* line 132, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 165, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .right-col {
     width: 40%;
     margin-right: 0; }
 
-  /* line 138, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 171, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .about-cont {
     padding: 10px; }
-    /* line 140, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 173, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont .thumb {
       width: 170px;
       height: 170px;
       margin-right: 10px; }
-    /* line 145, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 178, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont .social-icons {
       margin-top: 20px; }
 
-  /* line 151, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 184, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .map {
     margin-bottom: 20px; }
 
-  /* line 155, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 188, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends .friends-list .thumb {
     height: 140px; }
-  /* line 159, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 192, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends .friends-list li {
     width: 46%; }
 
-  /* line 164, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 197, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .overlay .content {
     width: 95%; }
 
-  /* line 169, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 202, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .product-list .thumb {
     height: 112px; }
-  /* line 174, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 207, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .product-list .detail sub {
     font-size: 14px; }
-  /* line 177, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 210, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .product-list .detail .tags {
     font-size: 12px; }
-  /* line 180, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 213, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .product-list .detail .name {
     font-size: 12px; }
-    /* line 182, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 215, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .product-list .detail .name h4 {
       font-size: 14px; }
-    /* line 185, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 218, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .product-list .detail .name small {
       margin-top: 3px; }
 
-  /* line 193, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 226, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .intro p {
     margin-bottom: 20px;
     font-size: 20px; }
-  /* line 197, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 230, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .intro h1 {
     font-size: 30px; }
 
-  /* line 204, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 237, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-info {
     margin: 0 auto 150px; }
-    /* line 206, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 239, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-info h1 {
       margin-top: 20px; }
 
-  /* line 213, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 246, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .wardrobe-items .items-slider {
     width: 90%;
     margin: 50px auto 30px; }
 
-  /* line 222, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 255, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .listing > li {
     margin: 3.6%;
     width: 26%; }
 
-  /* line 228, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 261, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .feedback {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -2047,100 +2188,189 @@ header {
     -o-transform: scale(0.5);
     transform: scale(0.5); }
 
-  /* line 233, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 266, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .post-detail {
     padding-bottom: 70px; }
-    /* line 236, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 269, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-detail .post-detail h4 {
       margin-bottom: 20px; }
 
-  /* line 241, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 274, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot {
     padding: 20px 15px; }
 
-  /* line 245, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 278, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot .pull-left {
     width: 77%; }
 
-  /* line 249, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 282, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot .right {
     width: 72%; }
 
-  /* line 252, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 285, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot .left {
     width: 25%; }
 
-  /* line 255, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 288, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .share-post .foot em {
     font-size: 12px;
     padding: 3px; }
 
-  /* line 260, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-  .banner {
-    height: 418px; }
-    /* line 264, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .player {
-      margin: 20px auto 30px;
-      width: 90%; }
+  /* line 297, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .player {
+    margin: 20px auto 30px;
+    width: 90%; }
 
-  /* line 270, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 303, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section h2:before {
     left: 17%; }
 
-  /* line 273, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 306, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section h2:after {
     right: 17%; }
 
-  /* line 278, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 311, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .listing-inner > li {
     width: 42.8%; }
 
-  /* line 282, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 315, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .crop-cont .right-col .btn-group .btn {
     margin-left: 5px;
     font-size: 14px; }
+
+  /* line 322, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration img {
+    width: 70%; }
+  /* line 325, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration input[type="text"], .banner .registration input[type="email"] {
+    width: 250px; }
+  /* line 329, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration .register {
+    width: 380px; }
+  /* line 332, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration p {
+    font-size: 15px; }
+
+  /* line 336, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .blogger .about-cont, .blogger .share-post {
+    width: 80%; }
+
+  /* line 339, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .post-shared .post-detail {
+    margin: 20px 2% 0;
+    width: 46%; }
+    /* line 342, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+    .post-shared .post-detail:nth-of-type(3n+2) {
+      margin: 20px 2% 0; }
+    /* line 346, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+    .post-shared .post-detail .thumb {
+      height: 168px; }
+
+  /* line 350, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .edit-profile .left-col, .edit-profile .right-col {
+    width: 80%;
+    float: left;
+    margin: 20px 0 0 10%; }
+
+  /* line 356, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .grid-section .trends-cta {
+    margin: -60px auto 15px;
+    float: none;
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+    display: inline-block; }
+
+  /* line 363, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  header .login-btn {
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8); }
  }
 
 @media only screen and (max-width: 767px) {
-  /* line 290, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 371, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  header .login-btn {
+    display: none; }
+
+  /* line 374, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .grid-section .trends-cta {
+    margin-top: 0;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center; }
+
+  /* line 378, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .edit-profile .left-col, .edit-profile .right-col {
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 0; }
+
+  /* line 384, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .blogger .about-cont, .blogger .share-post {
+    width: 100%; }
+
+  /* line 387, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .post-shared .post-detail {
+    margin: 20px 1% 0;
+    width: 96%; }
+    /* line 392, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+    .post-shared .post-detail:nth-of-type(3n+2) {
+      margin: 20px 2% 0; }
+    /* line 395, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+    .post-shared .post-detail .thumb {
+      height: 144px; }
+
+  /* line 399, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .desktop {
     display: none; }
 
-  /* line 293, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 402, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .mobile {
     display: block; }
 
-  /* line 297, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 406, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h1 {
     font-size: 30px; }
 
-  /* line 300, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 409, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h2 {
     font-size: 26px; }
 
-  /* line 303, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 412, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h3 {
     font-size: 22px; }
 
-  /* line 307, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 416, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h4 {
     font-size: 18px; }
 
-  /* line 311, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 420, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h5 {
     font-size: 16px; }
 
-  /* line 314, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 423, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   h6 {
     font-size: 14px; }
 
-  /* line 319, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 428, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header {
     height: 45px; }
-    /* line 323, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 432, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header .bt-menu-trigger {
       display: block; }
-    /* line 331, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 440, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header nav {
       width: 100%;
       left: 0;
@@ -2150,7 +2380,7 @@ header {
       margin-top: 0;
       position: absolute;
       top: 45px; }
-      /* line 342, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 451, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header nav ul {
         overflow: auto;
         margin: 0;
@@ -2158,15 +2388,15 @@ header {
         /* enables momentum scrolling in iOS overflow elements */
         padding: 0;
         width: 100%; }
-      /* line 350, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 459, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header nav li {
         padding: 0 !important;
         border-bottom: 2px solid #F0EAEA;
         width: 100%; }
-        /* line 356, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 465, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         header nav li:last-child {
           border: none; }
-        /* line 359, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 468, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         header nav li a {
           margin: 0;
           float: left;
@@ -2174,131 +2404,127 @@ header {
           padding: 15px 18px;
           text-align: left;
           color: #000; }
-          /* line 367, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+          /* line 476, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
           header nav li a.active {
             background: #fff;
             color: #000000; }
-      /* line 376, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 485, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header nav ul ul {
         position: static;
         width: 100%;
         height: 100%; }
-        /* line 380, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 489, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         header nav ul ul li {
           height: auto; }
-          /* line 382, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+          /* line 491, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
           header nav ul ul li a {
             width: 90%;
             height: auto;
             float: left; }
 
-  /* line 393, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-  .banner {
-    height: 380px;
-    background: url("../images/home_bg_mob.png") center/auto 100% no-repeat; }
-    /* line 397, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .right-col {
-      width: 100%; }
-    /* line 400, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .logo {
-      margin-top: 0; }
-    /* line 404, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-    .banner .btn-group {
-      margin-top: 277px; }
-      /* line 407, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-      .banner .btn-group .btn {
-        padding: 14px 20px; }
+  /* line 506, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .right-col {
+    width: 100%; }
+  /* line 509, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .logo {
+    margin-top: 0; }
+  /* line 513, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .btn-group {
+    margin-top: 200px; }
+    /* line 516, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+    .banner .btn-group .btn {
+      padding: 14px 20px; }
 
-  /* line 415, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 524, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section h2 {
     margin: 20px 0; }
-    /* line 416, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 525, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .grid-section h2:after, .grid-section h2:before {
       display: none; }
-  /* line 423, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 532, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .grid-section .grid-cont {
     margin: 0 auto;
     width: 250px; }
 
-  /* line 431, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 540, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   footer p {
     font-size: 14px;
     margin: 16px 10px 0 0; }
-  /* line 435, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 544, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   footer .social-icons {
     margin: 10px 0 10px; }
-  /* line 438, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 547, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   footer img {
     display: none; }
 
-  /* line 443, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 552, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   header.inner {
     height: 180px; }
-    /* line 446, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 555, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header.inner .center {
       width: 100%;
       padding: 0; }
-    /* line 451, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 560, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header.inner .logo-inner {
       width: 100%;
       height: auto; }
-      /* line 454, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 563, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header.inner .logo-inner a {
         display: block; }
-      /* line 457, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 566, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header.inner .logo-inner img {
         width: 50%;
         margin: 0 auto;
         display: block; }
-    /* line 464, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 573, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header.inner .search-bar {
       margin: 10px 0;
       width: 100%; }
-      /* line 468, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 577, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header.inner .search-bar input {
         width: 100%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box; }
-    /* line 475, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 584, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     header.inner .logged-in-menu {
       margin: 0; }
-      /* line 478, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 587, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header.inner .logged-in-menu li {
         font-size: 14px;
         margin-left: 5px; }
-        /* line 482, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 591, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         header.inner .logged-in-menu li:first-child {
           margin-left: 2px; }
-        /* line 487, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 596, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         header.inner .logged-in-menu li a:first-of-type:after {
           top: 3px;
           height: 13px; }
-      /* line 495, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 604, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       header.inner .logged-in-menu .sub-menu {
         left: 0; }
 
-  /* line 503, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 612, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .cover {
     height: 135px;
     margin: 0 0 40px; }
-    /* line 507, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 616, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .cover .thumb {
       width: 100px;
       height: 100px;
       bottom: -20px; }
-      /* line 511, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 620, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       .cover .thumb .upload {
         margin-top: 90px;
         background: url("../images/upload-mob.png") no-repeat center;
         height: 30px; }
-    /* line 519, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 628, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .cover .name {
       width: 200px;
       padding: 0;
       font-size: 15px;
       left: 110px; }
-    /* line 526, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 635, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .cover .about {
       text-indent: 0;
       font-size: 70%;
@@ -2308,109 +2534,109 @@ header {
       background: none;
       top: 0; }
 
-  /* line 537, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 646, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-menu {
     width: 100%;
     padding: 0; }
-    /* line 541, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 650, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-menu li {
       float: left;
       width: 100%;
       margin: 0; }
-      /* line 546, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+      /* line 655, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
       .profile-menu li a {
         border-radius: 0;
         width: 100%;
         height: auto;
         padding: 5px 0;
         text-align: center; }
-        /* line 554, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 663, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         .profile-menu li a span {
           position: static; }
-        /* line 558, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+        /* line 667, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
         .profile-menu li a:after {
           display: none; }
 
-  /* line 567, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 676, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .left-col, .profile-detail .right-col {
     width: 100%;
     margin-top: 20px; }
-  /* line 571, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 680, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-detail .post-detail {
     margin-top: 20px;
     padding-bottom: 55px; }
-    /* line 575, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 684, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-detail .post-detail h4 {
       margin-bottom: 20px; }
 
-  /* line 582, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 691, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .about-cont {
     margin: 20px 0 0; }
-    /* line 586, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 695, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont .thumb {
       width: 100%;
       height: 220px; }
-    /* line 590, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 699, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont .detail {
       width: 100%; }
-    /* line 594, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 703, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont h3 {
       margin-bottom: 10px; }
-    /* line 598, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 707, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .about-cont .pull-right {
       width: 100%; }
 
-  /* line 604, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 713, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-info {
     width: 100%;
     margin-bottom: 64px; }
-    /* line 608, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 717, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-info h1, .profile-info h2 {
       margin-bottom: 30px;
       font-size: 30px;
       text-align: center; }
 
-  /* line 615, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 724, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .map {
     width: 100%;
     margin-bottom: 0; }
-    /* line 618, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 727, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .map p {
       font-size: 16px; }
-    /* line 621, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 730, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .map iframe {
       height: 270px !important; }
 
-  /* line 627, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 736, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends span {
     top: 33px; }
-  /* line 630, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 739, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends .search-bar {
     width: 100%;
     text-align: center;
     height: 100px; }
-    /* line 634, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 743, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-friends .search-bar input {
       width: 100%;
       margin-left: 0;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-    /* line 639, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 748, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-friends .search-bar .btn-small {
       top: 92px; }
-  /* line 644, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 753, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .profile-friends .friends-list {
     margin-bottom: 0; }
-    /* line 646, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 755, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-friends .friends-list .thumb {
       height: 140px; }
-    /* line 649, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 758, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .profile-friends .friends-list li {
       width: 100%;
       margin: 10px 0; }
 
-  /* line 656, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 765, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .overlay {
     position: absolute;
     -webkit-transform: none !important;
@@ -2418,12 +2644,12 @@ header {
     -ms-transform: none !important;
     -o-transform: none !important;
     transform: none !important; }
-    /* line 660, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 769, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .overlay h3 {
       margin-bottom: 10px;
       padding-bottom: 10px;
       font-size: 20px; }
-    /* line 665, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 774, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .overlay .content {
       padding: 10px;
       -webkit-transform: none;
@@ -2435,36 +2661,36 @@ header {
       left: 5%;
       top: 30px;
       width: 90%; }
-    /* line 673, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 782, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .overlay ul, .overlay .btn-group {
       width: 100%; }
-    /* line 676, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 785, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .overlay .fade {
       position: fixed; }
 
-  /* line 681, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 790, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .product-list {
     margin-bottom: 0; }
-    /* line 683, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 792, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .product-list li {
       width: 80%;
       margin-left: 10%;
       margin-right: 0; }
-    /* line 688, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 797, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .product-list .thumb {
       height: 142px; }
 
-  /* line 694, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 803, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .intro p {
     margin-bottom: 20px;
     font-size: 14px; }
-    /* line 697, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 806, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .intro p input {
       width: 55px; }
-  /* line 703, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 812, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .intro h1 {
     font-size: 25px; }
-  /* line 708, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 817, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .intro .btn-round {
     width: auto;
     height: auto;
@@ -2476,24 +2702,28 @@ header {
     color: #38264d;
     background: #fff; }
 
-  /* line 725, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 834, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .listing > li {
     margin: 1.5%;
     width: 47%; }
-  /* line 729, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 838, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .listing .thumb {
     height: 83px; }
 
-  /* line 734, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-  .profile-detail .share-post .foot .pull-left {
+  /* line 843, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .share-post .foot .pull-left {
     width: 100%; }
 
-  /* line 737, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
-  .profile-detail .share-post .btn {
+  /* line 846, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .share-post .btn {
     float: left;
     margin-top: 10px; }
 
-  /* line 742, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 851, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .share-post .btn-blue {
+    margin-right: 10px; }
+
+  /* line 855, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .cover .thumb .pic {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2508,60 +2738,82 @@ header {
     left: 2px;
     top: 2px; }
 
-  /* line 750, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 863, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .inner-overlay p {
     font-size: 18px; }
-  /* line 753, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 866, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .inner-overlay .btn-group {
     margin-bottom: 10px; }
-    /* line 755, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 868, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .inner-overlay .btn-group .btn {
       display: block;
       margin: 5px 0; }
-  /* line 761, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 874, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .inner-overlay .search-bar {
     margin: 20px 0 0; }
-  /* line 765, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 878, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .inner-overlay input[type="search"], .inner-overlay input[type="text"] {
     width: 90%; }
 
-  /* line 770, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 883, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .create-outfits .btn {
     float: left;
     width: 80%;
     text-align: center;
     margin: 5px 0 5px 10%; }
 
-  /* line 778, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 891, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .wardrobe-items .bx-prev {
     left: -23px; }
 
-  /* line 781, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 894, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .wardrobe-items .bx-next {
     right: -23px; }
 
-  /* line 784, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 897, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .crop-cont .left-col, .crop-cont .right-col {
     width: 100%; }
 
-  /* line 787, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 900, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .crop-cont .right-col {
     margin-top: 20px; }
 
-  /* line 790, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 903, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .crop-cont .right-col .btn-group {
     text-align: center; }
-    /* line 792, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+    /* line 905, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
     .crop-cont .right-col .btn-group .btn {
       padding: 8px 30px;
       float: none;
       display: inline-block;
       margin: 0 2px 0; }
 
-  /* line 800, E:/Mustafa/Practice/topshou/Common/css/imports/_responsive */
+  /* line 913, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
   .crop-cont .right-col .crop {
     margin: 20px 0;
     height: 250px; }
+
+  /* line 919, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration img {
+    width: 70%;
+    margin: 10px 0; }
+  /* line 923, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration input[type="text"], .banner .registration input[type="email"] {
+    width: 180px;
+    font-size: 16px;
+    border-width: 1px;
+    height: 37px; }
+  /* line 929, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration .btn {
+    padding: 8px 11px;
+    font-size: 16px; }
+  /* line 933, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration .register {
+    width: 270px; }
+  /* line 936, D:/Work/Freelance/Zubair Ahmed/TopShu/web/Common/css/imports/_responsive */
+  .banner .registration p {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.81); }
  }
 
 /*# sourceMappingURL=style.css.map */

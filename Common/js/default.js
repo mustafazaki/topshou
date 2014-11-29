@@ -70,6 +70,12 @@
 
                 $(this).parents(".overlay").removeClass("active")
             });
+            $(".back-to-top").click(function(){
+            	$("html,body").animate({scrollTop: 0})
+            })
+
+
+
         },
 
 

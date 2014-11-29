@@ -61,7 +61,7 @@
     width: 27%;
   }
   .banner {
-    height: 552px;
+//    height: 552px;
     .pull-right {
       width: 55%;
 
@@ -73,6 +73,28 @@
       padding-top: 52%;
 
     }
+
+    .trends img {
+      margin-top: 22px;
+      width: 100%;
+    }
+    .outfits img, .wardrobe img {
+      width: 90%;
+      margin-top: 20px;
+    }
+    .wall img {
+      width: 70%;
+      margin-top: 20px;
+    }
+    .registration {
+      img {
+        width: 80%;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
   }
 
   .grid-section h2:before {
@@ -82,6 +104,17 @@
     right: 24%;
 
   }
+  .post-shared .post-detail .thumb{
+    height: 159px;
+  }
+  .blogger .about-cont, .blogger .share-post{
+    width: 70%;
+  }
+  .grid-section .trends-cta{
+    @include transform(scale(0.7));
+    @include transform-origin(right)
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -259,7 +292,7 @@
   }
   .banner {
 
-    height: 418px;
+//    height: 418px;
 
     .player {
       margin: 20px auto 30px;
@@ -284,9 +317,85 @@
     margin-left: 5px;
     font-size: 14px;
   }
+
+  .banner .registration {
+    img {
+      width: 70%;
+    }
+    input[type="text"], input[type="email"] {
+
+      width: 250px;
+    }
+    .register {
+      width: 380px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .blogger .about-cont, .blogger .share-post {
+    width: 80%;
+  }
+  .post-shared .post-detail {
+
+    margin: 20px 2% 0;
+    &:nth-of-type(3n+2){
+      margin: 20px 2% 0;
+    }
+    width: 46%;
+    .thumb{
+    height: 168px;
+    }
+  }
+  .edit-profile .left-col, .edit-profile .right-col{
+    width: 80%;
+    float: left;
+    margin:20px 0 0 10%;
+
+  }
+  .grid-section .trends-cta {
+    margin: -60px auto 15px;
+    float: none;
+    @include transform-origin(left);
+    display: inline-block;
+
+  }
+  header  .login-btn{
+
+    @include transform-origin(left);
+    @include transform(scale(0.8))
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  header .login-btn{
+    display: none;
+  }
+  .grid-section .trends-cta{
+    margin-top: 0;
+    @include transform-origin(center)
+  }
+  .edit-profile .left-col, .edit-profile .right-col {
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 0;
+
+  }
+  .blogger .about-cont, .blogger .share-post{
+    width: 100%;
+  }
+  .post-shared .post-detail {
+
+    margin: 20px 1% 0;
+    width: 96%;
+
+    &:nth-of-type(3n+2) {
+      margin: 20px 2% 0;
+    }
+    .thumb {
+      height: 144px;
+    }
+  }
   .desktop {
     display: none;
   }
@@ -391,8 +500,8 @@
     }
   }
   .banner {
-    height: 380px;
-    background: url("../images/home_bg_mob.png") center /auto 100% no-repeat;
+//    height: 380px;
+//    background: url("../images/home_bg_mob.png") center /auto 100% no-repeat;
 
     .right-col {
       width: 100%;
@@ -402,7 +511,7 @@
     }
 
     .btn-group {
-      margin-top: 277px;
+      margin-top: 200px;
 
       .btn {
         padding: 14px 20px;
@@ -731,14 +840,18 @@
     }
   }
 
-  .profile-detail .share-post .foot .pull-left {
+   .share-post .foot .pull-left {
     width: 100%;
   }
-  .profile-detail .share-post .btn {
+   .share-post .btn {
     float: left;
     margin-top: 10px;
 
   }
+  .share-post .btn-blue{
+    margin-right: 10px;
+  }
+
   .cover .thumb .pic {
     @include transform(scale(0.4));
     @include transform-origin(left top);
@@ -800,5 +913,29 @@
   .crop-cont .right-col .crop {
     margin: 20px 0;
     height: 250px;
+  }
+
+  .banner .registration {
+    img {
+      width: 70%;
+      margin: 10px 0;
+    }
+    input[type="text"], input[type="email"] {
+      width: 180px;
+      font-size: 16px;
+      border-width: 1px;
+      height: 37px;
+    }
+    .btn{
+      padding: 8px 11px;
+      font-size: 16px;
+    }
+    .register {
+      width: 270px;
+    }
+    p {
+      font-size: 14px;
+      background: rgba(255, 255, 255, 0.81);
+    }
   }
 }

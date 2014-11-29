@@ -148,6 +148,9 @@
     .left {
       float: left;
       width: 22%;
+      span {
+        display: block;
+      }
     }
     .right {
       float: right;
@@ -238,6 +241,7 @@
   }
 
 }
+
 .profile-detail {
 
   .left-col {
@@ -245,8 +249,6 @@
     margin-left: percentage(120px/$layout-width);
 
   }
-
-
 
   .right-col {
     width: percentage(395px/$layout-width);
@@ -256,7 +258,6 @@
       //      width: 100%;
 
     }
-
 
   }
 }
@@ -286,6 +287,20 @@
   }
 }
 
+.back-to-top {
+  top: auto;
+  bottom: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  &:after{
+    background-position: -371px -79px;
+    width: 86px;
+    margin-left: -46px;
+    top: 45px;
+
+  }
+
+}
+
 .friends-cont {
   background: #f6f7f8;
   float: left;
@@ -312,7 +327,7 @@
     position: relative;
     height: 0;
     padding-bottom: 32%;
-    
+
     img {
       position: absolute;
       width: 100%;
