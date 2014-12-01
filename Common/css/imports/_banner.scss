@@ -78,7 +78,7 @@
     }
 
     p {
-      @include absolute("", "", 0, 0);
+      @include absolute("", "",-100px, 0);
       font-size: 25px;
       color: #303030;
       width: 100%;

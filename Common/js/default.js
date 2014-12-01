@@ -86,14 +86,26 @@
                     menu = $this.find(".sub-menu");
 
 
+                if ($this.hasClass("active")) {
+                    $this.removeClass("active");
+                    menu.stop().slideUp();
+                    return false;
+
+                }
+
+
                 $("header .logged-in-menu li .sub-menu").stop().slideUp();
                 $("header .logged-in-menu >ul> li").removeClass("active");
+
+
 
 
                 menu.slideUp();
                 if (menu.length > 0) {
                     $this.addClass("active");
-                    menu.stop().slideDown()
+                    menu.stop().slideDown();
+
+
                 }
 
                 if (app.isMobile) {
@@ -250,6 +262,20 @@
 //               preloadImage:"all"
             })
 
+
+            $(".banner .slider").bxSlider({
+                pager: false,
+                nextText: ">",
+                prevText: "<",
+                adaptiveHeight: false,
+                mode:"fade",
+                auto:true,
+                pause:5000,
+                autoHover:true
+//               preloadImage:"all"
+            })
+
+
             $(".items-slider ul").bxSlider({
                 pager: false,
                 nextText: ">",
@@ -262,6 +288,7 @@
                 hideControlOnEnd: true
 
             })
+
 
 
         },
