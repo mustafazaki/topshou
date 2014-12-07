@@ -262,18 +262,18 @@
 //               preloadImage:"all"
             })
 
-
             $(".banner .slider").bxSlider({
-                pager: false,
-                nextText: ">",
-                prevText: "<",
+
+                controls:false,
+                pager:true,
                 adaptiveHeight: false,
                 mode:"fade",
                 auto:true,
                 pause:5000,
                 autoHover:true
-//               preloadImage:"all"
-            })
+            });
+
+           // bannerSlider.startAuto(false)
 
 
             $(".items-slider ul").bxSlider({
