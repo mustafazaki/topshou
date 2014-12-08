@@ -23,7 +23,7 @@
                 || navigator.userAgent.match(/iPod/i)
                 || navigator.userAgent.match(/BlackBerry/i)
                 || navigator.userAgent.match(/Windows Phone/i)
-                ) {
+            ) {
                 app.isTouch = true;
                 app.$body.addClass("touch");
             }
@@ -70,10 +70,9 @@
 
                 $(this).parents(".overlay").removeClass("active")
             });
-            $(".back-to-top").click(function(){
-            	$("html,body").animate({scrollTop: 0})
+            $(".back-to-top").click(function () {
+                $("html,body").animate({scrollTop: 0})
             })
-
 
 
         },
@@ -98,8 +97,6 @@
                 $("header .logged-in-menu >ul> li").removeClass("active");
 
 
-
-
                 menu.slideUp();
                 if (menu.length > 0) {
                     $this.addClass("active");
@@ -111,8 +108,8 @@
                 if (app.isMobile) {
 
                     menu.css({
-                        "width":app.WINDOW_WIDTH+"px",
-                        "left":"-"+ $this.offset().left+"px"
+                        "width": app.WINDOW_WIDTH + "px",
+                        "left": "-" + $this.offset().left + "px"
 
                     });
 
@@ -121,10 +118,9 @@
                 event.stopImmediatePropagation()
             });
 
-            $("header .logged-in-menu  .sub-menu").click(function(event){
+            $("header .logged-in-menu  .sub-menu").click(function (event) {
                 event.stopImmediatePropagation()
             })
-
 
 
             $(document).on("click touchstart", function () {
@@ -132,8 +128,6 @@
                 $("header .logged-in-menu >ul> li").removeClass("active");
 
             })
-
-
 
 
         },
@@ -264,16 +258,34 @@
 
             $(".banner .slider").bxSlider({
 
-                controls:false,
-                pager:true,
+                controls: false,
+                pager: true,
                 adaptiveHeight: false,
-                mode:"fade",
-                auto:true,
-                pause:5000,
-                autoHover:true
+                mode: "fade",
+                auto: true,
+                pause: 5000,
+                autoHover: true
             });
 
-           // bannerSlider.startAuto(false)
+
+            $(".post-shared .post-detail .post-slider").each(function () {
+
+                    if (!($(this).find(".slide img").length <= 1)) {
+                        $(this).bxSlider({
+                            pager: false,
+                            nextText: ">",
+                            prevText: "<",
+                            adaptiveHeight: true
+                        })
+                    }
+
+                }
+            )
+
+
+            //
+
+            // bannerSlider.startAuto(false)
 
 
             $(".items-slider ul").bxSlider({
@@ -288,7 +300,6 @@
                 hideControlOnEnd: true
 
             })
-
 
 
         },
