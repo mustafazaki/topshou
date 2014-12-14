@@ -1,6 +1,6 @@
 @import "../bourbon/bourbon";
 @import "imports/_functions";
-@import "imports/en/_fontface";
+@import "imports/ar/_fontface";
 @import "imports/_reset";
 
 
@@ -11,6 +11,7 @@
 //
 //}
 body {
+
   font: 14px $seogeui-regular;
   overflow-x: hidden;
 
@@ -31,6 +32,7 @@ body.pushy-active {
 
 .wrapper {
   height: 100%;
+  direction: rtl;
 
 }
 
@@ -68,6 +70,7 @@ span.sprite, a.sprite {
   padding: 14px 39px;
   color: #fff;
   @extend .transition;
+  display: inline-block;
 }
 
 .btn-small {
@@ -88,17 +91,17 @@ span.sprite, a.sprite {
 }
 
 .pull-left {
-  float: left;
+  float: right;
 }
 
 .pull-right {
-  float: right;
+  float: left;
 }
 
 .search-bar {
   position: relative;
 
-  margin: 40px 0 0 25px;
+  margin: 40px 25px 0 0px;
 
   input {
     background: #f7f5f5;
@@ -106,14 +109,14 @@ span.sprite, a.sprite {
     color: $grey;
     border: none;
     outline: none;
-    padding: 9.5px 50px 9.5px 10px;
+    padding: 9.5px 10px 9.5px 50px;
     width: 310px;
   }
 
   span {
     @include widthHeight(30px, 30px);
     background-position: -292px 0;
-    @include absolute(6px, 11px, "", "");
+    @include absolute(6px, "", "", 11px);
 
   }
 }
@@ -148,19 +151,19 @@ span.sprite, a.sprite {
 }
 
 
-@import "imports/en/_footer";
-@import "imports/en/_wall";
-@import "imports/en/_friends";
-@import "imports/en/_header";
-@import "imports/en/_banner";
-@import "imports/en/_btn";
-@import "imports/en/_grids";
-@import "imports/en/_marketPlace";
-@import "imports/en/_about";
-@import "imports/en/_wardrobe";
-@import "imports/en/_info";
-@import "imports/en/_overlay";
-@import "imports/en/_hover";
-@import "imports/en/_edit-profile";
+@import "imports/ar/_footer";
+@import "imports/ar/_wall";
+@import "imports/ar/_friends";
+@import "imports/ar/_header";
+@import "imports/ar/_banner";
+@import "imports/ar/_btn";
+@import "imports/ar/_grids";
+@import "imports/ar/_marketPlace";
+@import "imports/ar/_about";
+@import "imports/ar/_wardrobe";
+@import "imports/ar/_info";
+@import "imports/ar/_overlay";
+@import "imports/ar/_hover";
+@import "imports/ar/_edit-profile";
 
-@import "imports/en/_responsive";
+@import "imports/ar/_responsive";

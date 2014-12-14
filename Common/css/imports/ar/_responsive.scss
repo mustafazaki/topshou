@@ -1,0 +1,954 @@
+@import "../../../bourbon/_bourbon";
+@import "../_functions";
+
+@media only screen and (max-width: 1100px) {
+
+  .center {
+    width: 100%;
+    padding: 0 2%;
+    margin: 0;
+  }
+
+  header {
+    .logo-inner {
+      width: 28%;
+      height: 100%;
+      img {
+        margin-top: 13px;
+      }
+    }
+    .search-bar input {
+      width: 200px;
+    }
+    .logged-in-menu li {
+      margin-left: 15px;
+
+    }
+  }
+  .about-cont {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .profile-friends .friends-list .thumb {
+
+    height: 117px;
+  }
+
+  .profile-info {
+    // margin: 0 0 150px 270px;
+    h1, h2 {
+      margin: 30px 0;
+
+    }
+  }
+  .wardrobe-items {
+    .items-slider {
+      width: 100%;
+
+      margin-left: 0;
+    }
+  }
+  .feedback {
+    @include transform(scale(0.7));
+    @include transform-origin(center left);
+
+  }
+  .profile-detail .share-post .foot .right {
+    width: 66%;
+  }
+  .profile-detail .share-post .foot .left {
+    width: 27%;
+  }
+  .banner {
+//    height: 552px;
+    .pull-right {
+      width: 55%;
+
+    }
+    .player {
+      width: 80%;
+
+      margin-top: 30px;
+      padding-top: 52%;
+
+    }
+
+    .trends img {
+      margin-top: 22px;
+      width: 100%;
+    }
+    .outfits img, .wardrobe img {
+      width: 90%;
+      margin-top: 20px;
+    }
+    .wall img {
+      width: 70%;
+      margin-top: 20px;
+    }
+    .registration {
+      img {
+        width: 80%;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .grid-section h2:before {
+    left: 24%;
+  }
+  .grid-section h2:after {
+    right: 24%;
+
+  }
+  .post-shared .post-detail .thumb{
+    height: 159px;
+  }
+  .blogger .about-cont, .blogger .share-post{
+    width: 70%;
+  }
+  .grid-section .trends-cta{
+    @include transform(scale(0.7));
+    @include transform-origin(left)
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    .logo-inner {
+      width: 35%;
+
+    }
+    .search-bar {
+      margin-top: 10px;
+      input {
+        width: 300px;
+      }
+    }
+    .logged-in-menu {
+
+      float: right;
+      margin: 8px 20px 0 0px;
+
+    }
+  }
+
+  .profile-menu li {
+    margin: 50px 5px;
+
+    a {
+      @include widthHeight(120px, 120px);
+
+      span {
+        bottom: 18px;
+
+      }
+      &:after {
+        top: 20px !important;
+      }
+
+    }
+
+  }
+
+  .profile-detail {
+
+    .left-col {
+      width: 55%;
+      margin-right: 0;
+
+    }
+    .right-col {
+      width: 40%;
+      margin-left: 0;
+
+    }
+  }
+  .about-cont {
+    padding: 10px;
+    .thumb {
+      @include widthHeight(170px, 170px);
+      margin-right: 10px;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+
+    }
+
+  }
+  .map {
+    margin-bottom: 20px;
+  }
+  .profile-friends .friends-list {
+    .thumb {
+
+      height: 140px;
+    }
+    li {
+      width: 46%;
+
+    }
+  }
+  .overlay .content {
+    width: 95%;
+
+  }
+  .product-list {
+    .thumb {
+
+      height: 112px;
+    }
+    .detail {
+      sub {
+        font-size: 14px;
+      }
+      .tags {
+        font-size: 12px;
+      }
+      .name {
+        font-size: 12px;
+        h4 {
+          font-size: 14px;
+        }
+        small {
+          margin-top: 3px;
+
+        }
+      }
+    }
+  }
+  .intro {
+    p {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 30px;
+
+    }
+
+  }
+
+  .profile-info {
+    margin: 0 auto 150px;
+    h1 {
+      margin-top: 20px;
+
+    }
+  }
+
+  .wardrobe-items {
+    .items-slider {
+      width: 90%;
+      //      margin: 0 auto;
+      margin: 50px auto 30px;
+
+    }
+  }
+
+  .listing {
+    > li {
+      margin: 3.6%;
+
+      width: 26%;
+    }
+  }
+  .feedback {
+    @include transform(scale(0.5));
+
+  }
+
+  .profile-detail .post-detail {
+    padding-bottom: 70px;
+
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .profile-detail .share-post .foot {
+    padding: 20px 15px;
+
+  }
+  .profile-detail .share-post .foot .pull-left {
+    width: 77%;
+
+  }
+  .profile-detail .share-post .foot .right {
+    width: 72%;
+  }
+  .profile-detail .share-post .foot .left {
+    width: 25%;
+  }
+  .profile-detail .share-post .foot em {
+    font-size: 12px;
+    padding: 3px;
+
+  }
+  .banner {
+
+//    height: 418px;
+
+    .player {
+      margin: 20px auto 30px;
+      width: 90%;
+
+    }
+  }
+  .grid-section h2:before {
+    left: 17%;
+  }
+  .grid-section h2:after {
+    right: 17%;
+
+  }
+
+  .listing-inner > li {
+
+    width: 42.8%;
+  }
+  .crop-cont .right-col .btn-group .btn {
+
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .banner .registration {
+    img {
+      width: 70%;
+    }
+    input[type="text"], input[type="email"] {
+
+      width: 250px;
+    }
+    .register {
+      width: 380px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .blogger .about-cont, .blogger .share-post {
+    width: 80%;
+  }
+  .post-shared .post-detail {
+
+    margin: 20px 2% 0;
+    &:nth-of-type(3n+2){
+      margin: 20px 2% 0;
+    }
+    width: 46%;
+    .thumb{
+    height: 168px;
+    }
+  }
+  .edit-profile .left-col, .edit-profile .right-col{
+    width: 80%;
+    float: left;
+    margin:20px 0 0 10%;
+
+  }
+  .grid-section .trends-cta {
+    margin: -60px auto 15px;
+    float: none;
+    @include transform-origin(right);
+    display: inline-block;
+
+  }
+  header  .login-btn{
+
+    @include transform-origin(left);
+    @include transform(scale(0.8))
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .feedback {
+    display: none;
+
+  }
+  header .login-btn{
+    display: none;
+  }
+  .grid-section .trends-cta{
+    margin-top: 0;
+    @include transform-origin(center)
+  }
+  .edit-profile .left-col, .edit-profile .right-col {
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 0;
+
+  }
+  .blogger .about-cont, .blogger .share-post{
+    width: 100%;
+  }
+  .post-shared .post-detail {
+
+    margin: 20px 1% 0;
+    width: 96%;
+
+    &:nth-of-type(3n+2) {
+      margin: 20px 2% 0;
+    }
+    .thumb {
+      height: 144px;
+    }
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+
+  }
+  h4 {
+    font-size: 18px;
+
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+
+  }
+
+  header {
+
+    height: 45px;
+
+    .bt-menu-trigger {
+      display: block;
+
+    }
+    .logo {
+
+    }
+
+    nav {
+      width: 100%;
+      left: 0;
+      display: none;
+      z-index: 10;
+      background: #fff;
+      margin-top: 0;
+      //      padding-bottom: 20px;
+      position: absolute;
+      top: 45px;
+
+      ul {
+        overflow: auto;
+        margin: 0;
+        -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+        padding: 0;
+        width: 100%;
+
+      }
+      li {
+        padding: 0 !important;
+        border-bottom: 2px solid #F0EAEA;
+
+        width: 100%;
+
+        &:last-child {
+          border: none;
+        }
+        &:after {
+          display: none;
+        }
+        a {
+          margin: 0;
+          float: right;
+          font-size: 18px;
+          padding: 15px 18px;
+          text-align: left;
+          color: #000;
+
+          &.active {
+            background: #fff;
+            color: #000000;
+
+          }
+
+        }
+
+      }
+
+      ul ul {
+        position: static;
+        width: 100%;
+        height: 100%;
+        li {
+          height: auto;
+          a {
+            width: 90%;
+            height: auto;
+            float: left;
+
+          }
+        }
+
+      }
+    }
+  }
+  .banner {
+//    height: 380px;
+//    background: url("../images/home_bg_mob.png") center /auto 100% no-repeat;
+
+    .right-col {
+      width: 100%;
+    }
+    .logo {
+      margin-top: 0;
+    }
+
+    .btn-group {
+      margin-top: 200px;
+
+      .btn {
+        padding: 14px 20px;
+
+      }
+    }
+  }
+
+  .grid-section {
+    h2 {
+      &:after, &:before {
+        display: none;
+      }
+      margin: 20px 0;
+
+    }
+
+    .grid-cont {
+      margin: 0 auto;
+      width: 250px;
+    }
+  }
+
+  footer {
+
+    p {
+      font-size: 14px;
+      margin: 16px 10px 0 0;
+    }
+    .social-icons {
+      margin: 10px 0 10px;
+    }
+    img {
+      display: none;
+    }
+  }
+
+  header.inner {
+
+    height: 180px;
+    .center {
+      width: 100%;
+      padding: 0;
+    }
+
+    .logo-inner {
+      width: 100%;
+      height: auto;
+      a {
+        display: block;
+      }
+      img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    .search-bar {
+      margin: 10px 0;
+      width: 100%;
+
+      input {
+        width: 100%;
+        @include box-sizing(border-box)
+
+      }
+    }
+
+    .logged-in-menu {
+      margin: 0;
+
+      li {
+        font-size: 14px;
+        margin-left: 0px;
+
+        &:first-child {
+          margin-left: 2px;
+
+        }
+
+        a:first-of-type:after {
+
+          top: 3px;
+          height: 13px;
+        }
+
+      }
+
+      .sub-menu {
+        //        width: 100%;
+        left: 0;
+      }
+    }
+
+  }
+
+  .cover {
+    height: 135px;
+    margin: 0 0 40px;
+
+    .thumb {
+      @include widthHeight(100px, 100px);
+      bottom: -20px;
+
+      .upload {
+        margin-top: 90px;
+        background: url("../images/upload-mob.png") no-repeat center;
+        height: 30px;
+
+      }
+
+    }
+    .name {
+      width: 200px;
+      padding: 0;
+      font-size: 15px;
+      right:  110px;
+
+    }
+    .about {
+      text-indent: 0;
+      font-size: 70%;
+      text-decoration: underline;
+      @include widthHeight(auto, auto);
+      background: none;
+      top: 0;
+
+    }
+  }
+
+  .profile-menu {
+    width: 100%;
+    padding: 0;
+
+    li {
+
+      float: left;
+      width: 100%;
+      margin: 0;
+      a {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+
+        text-align: center;
+
+        span {
+          position: static;
+
+        }
+        &:after {
+          display: none;
+
+        }
+      }
+    }
+  }
+  .profile-detail {
+
+    .left-col, .right-col {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .post-detail {
+      margin-top: 20px;
+      padding-bottom: 55px;
+
+      h4 {
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+  .about-cont {
+    ///  width: 100%;
+    margin: 20px 0 0;
+    //  padding: 10px;
+    .thumb {
+      width: 100%;
+      height: 220px;
+    }
+    .detail {
+      width: 100%;
+
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    .pull-right {
+      width: 100%;
+
+    }
+  }
+
+  .profile-info {
+    width: 100%;
+    margin-bottom: 64px;
+
+    h1, h2 {
+      margin-bottom: 30px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+  }
+  .map {
+    width: 100%;
+    margin-bottom: 0;
+    p {
+      font-size: 16px;
+    }
+    iframe {
+      height: 270px !important;
+
+    }
+  }
+  .profile-friends {
+    span {
+      top: 33px;
+    }
+    .search-bar {
+      width: 100%;
+      text-align: center;
+      height: 100px;
+      input {
+        width: 100%;
+        margin-left: 0;
+        @include box-sizing(border-box);
+      }
+      .btn-small {
+        top: 92px;
+      }
+    }
+
+    .friends-list {
+      margin-bottom: 0;
+      .thumb {
+        height: 140px;
+      }
+      li {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    @include transform(none !important);
+
+    h3 {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+    .content {
+      padding: 10px;
+      @include transform(none);
+      border-radius: 5px;
+      left: 5%;
+      top: 30px;
+      width: 90%;
+    }
+    ul, .btn-group {
+      width: 100%;
+    }
+    .fade {
+      position: fixed;
+    }
+
+  }
+  .product-list {
+    margin-bottom: 0;
+    li {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 0;
+    }
+    .thumb {
+      height: 142px;
+    }
+
+  }
+  .intro {
+    p {
+      margin-bottom: 20px;
+      font-size: 14px;
+      input {
+        width: 55px;
+
+      }
+
+    }
+    h1 {
+      font-size: 25px;
+
+    }
+
+    .btn-round {
+      width: auto;
+      height: auto;
+      line-height: 0;
+      text-decoration: underline;
+
+      display: inline;
+      border-radius: 0;
+      font-size: 14px;
+      color: $purple;
+      background: #fff;
+
+    }
+
+  }
+
+  .listing {
+    > li {
+      margin: 1.5%;
+      width: 47%;
+    }
+    .thumb {
+      height: 83px;
+    }
+  }
+
+   .share-post .foot .pull-left {
+    width: 100%;
+  }
+   .share-post .btn {
+    float: left;
+    margin-top: 10px;
+
+  }
+  .share-post .btn-blue{
+    margin-right: 10px;
+  }
+
+  .cover .thumb .pic {
+    @include transform(scale(0.4));
+    @include transform-origin(left top);
+    left: 2px;
+    top: 2px;
+  }
+
+  .inner-overlay {
+    p {
+      font-size: 18px;
+    }
+    .btn-group {
+      margin-bottom: 10px;
+      .btn {
+        display: block;
+        margin: 5px 0;
+      }
+
+    }
+    .search-bar {
+      margin: 20px 0 0;
+
+    }
+    input[type="search"], input[type="text"] {
+      width: 90%;
+    }
+  }
+
+  .create-outfits .btn {
+
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin: 5px 0 5px 10%;
+
+  }
+  .wardrobe-items .bx-prev {
+    left: -23px;
+  }
+  .wardrobe-items .bx-next {
+    right: -23px;
+  }
+  .crop-cont .left-col, .crop-cont .right-col {
+    width: 100%;
+  }
+  .crop-cont .right-col {
+    margin-top: 20px;
+  }
+  .crop-cont .right-col .btn-group {
+    text-align: center;
+    .btn {
+      padding: 8px 30px;
+      float: none;
+      display: inline-block;
+      margin: 0 2px 0;
+    }
+  }
+
+  .crop-cont .right-col .crop {
+    margin: 20px 0;
+    height: 250px;
+  }
+
+  .banner .registration {
+    img {
+      width: 70%;
+      margin: 10px 0;
+    }
+    input[type="text"], input[type="email"] {
+      width: 180px;
+      font-size: 16px;
+      border-width: 1px;
+      height: 37px;
+    }
+    .btn{
+      padding: 8px 11px;
+      font-size: 16px;
+    }
+    .register {
+      width: 270px;
+    }
+    p {
+      font-size: 14px;
+      background: rgba(255, 255, 255, 0.81);
+    }
+  }
+  .social-icons a{
+    margin-left: 0;
+    margin-right: 10px;
+
+  }
+}

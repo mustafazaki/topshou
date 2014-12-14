@@ -9,6 +9,7 @@
         resizeTimeoutID: null,
         $body: $("body"),
         masanoryCont: null,
+        culture: "en",
 
         detectDevice: function () {
             (function (a) {
@@ -23,7 +24,7 @@
                 || navigator.userAgent.match(/iPod/i)
                 || navigator.userAgent.match(/BlackBerry/i)
                 || navigator.userAgent.match(/Windows Phone/i)
-            ) {
+                ) {
                 app.isTouch = true;
                 app.$body.addClass("touch");
             }
@@ -32,6 +33,11 @@
             }
 
             app.isTablet = (!app.isMobile && app.isTouch);
+        },
+        detectCulture: function () {
+            if (window.location.href.match("_ar") != null || (window.location.href.match("/ar") != null)) {
+                app.culture = "ar"
+            }
         },
 
         _windowResize: function () {
@@ -209,7 +215,8 @@
                 //  app.masanoryCont = $('.grid-cont');
                 app.masanoryCont = $('.grid-cont').masonry({
 //                    columnWidth: 80,
-                    itemSelector: '.grid'
+                    itemSelector: '.grid',
+                    isOriginLeft: (app.culture === "en") ? true : false
                 });
             });
 
@@ -304,6 +311,7 @@
 
         },
         init: function () {
+            app.detectCulture();
             app.detectDevice();
             app.setCssOfElements();
             app.resizeListner();
