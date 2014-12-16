@@ -9,6 +9,7 @@
         resizeTimeoutID: null,
         $body: $("body"),
         masanoryCont: null,
+        culture: "en",
 
         detectDevice: function () {
             (function (a) {
@@ -32,6 +33,11 @@
             }
 
             app.isTablet = (!app.isMobile && app.isTouch);
+        },
+        detectCulture: function () {
+            if (window.location.href.match("_ar") != null || (window.location.href.match("/ar") != null)) {
+                app.culture = "ar"
+            }
         },
 
         _windowResize: function () {
@@ -70,10 +76,9 @@
 
                 $(this).parents(".overlay").removeClass("active")
             });
-            $(".back-to-top").click(function(){
-            	$("html,body").animate({scrollTop: 0})
+            $(".back-to-top").click(function () {
+                $("html,body").animate({scrollTop: 0})
             })
-
 
 
         },
@@ -86,6 +91,14 @@
                     menu = $this.find(".sub-menu");
 
 
+                if ($this.hasClass("active")) {
+                    $this.removeClass("active");
+                    menu.stop().slideUp();
+                    return false;
+
+                }
+
+
                 $("header .logged-in-menu li .sub-menu").stop().slideUp();
                 $("header .logged-in-menu >ul> li").removeClass("active");
 
@@ -93,14 +106,16 @@
                 menu.slideUp();
                 if (menu.length > 0) {
                     $this.addClass("active");
-                    menu.stop().slideDown()
+                    menu.stop().slideDown();
+
+
                 }
 
                 if (app.isMobile) {
 
                     menu.css({
-                        "width":app.WINDOW_WIDTH+"px",
-                        "left":"-"+ $this.offset().left+"px"
+                        "width": app.WINDOW_WIDTH + "px",
+                        "left": "-" + $this.offset().left + "px"
 
                     });
 
@@ -109,10 +124,9 @@
                 event.stopImmediatePropagation()
             });
 
-            $("header .logged-in-menu  .sub-menu").click(function(event){
+            $("header .logged-in-menu  .sub-menu").click(function (event) {
                 event.stopImmediatePropagation()
             })
-
 
 
             $(document).on("click touchstart", function () {
@@ -120,8 +134,6 @@
                 $("header .logged-in-menu >ul> li").removeClass("active");
 
             })
-
-
 
 
         },
@@ -203,7 +215,8 @@
                 //  app.masanoryCont = $('.grid-cont');
                 app.masanoryCont = $('.grid-cont').masonry({
 //                    columnWidth: 80,
-                    itemSelector: '.grid'
+                    itemSelector: '.grid',
+                    isOriginLeft: (app.culture === "en") ? true : false
                 });
             });
 
@@ -250,6 +263,38 @@
 //               preloadImage:"all"
             })
 
+            $(".banner .slider").bxSlider({
+
+                controls: false,
+                pager: true,
+                adaptiveHeight: false,
+                mode: "fade",
+                auto: true,
+                pause: 5000,
+                autoHover: true
+            });
+
+
+            $(".post-shared .post-detail .post-slider").each(function () {
+
+                    if (!($(this).find(".slide img").length <= 1)) {
+                        $(this).bxSlider({
+                            pager: false,
+                            nextText: ">",
+                            prevText: "<",
+                            adaptiveHeight: true
+                        })
+                    }
+
+                }
+            )
+
+
+            //
+
+            // bannerSlider.startAuto(false)
+
+
             $(".items-slider ul").bxSlider({
                 pager: false,
                 nextText: ">",
@@ -266,6 +311,7 @@
 
         },
         init: function () {
+            app.detectCulture();
             app.detectDevice();
             app.setCssOfElements();
             app.resizeListner();

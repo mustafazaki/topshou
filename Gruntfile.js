@@ -12,7 +12,6 @@ module.exports = function (grunt) {
                 tasks: ['sass'],
 			options: {
 					livereload: true
-
 				}
             },
             sass: {
@@ -21,7 +20,8 @@ module.exports = function (grunt) {
                 },
                 dist: {
                     files: {
-                        'Common/css/style.css': 'Common/css/style.scss'
+                        'Common/css/style.css': 'Common/css/style.scss',
+                        'Common/css/style_ar.css': 'Common/css/style_ar.scss'
                     }
                 }
             }

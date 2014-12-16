@@ -1,0 +1,150 @@
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="Common/css/style_ar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+
+<div class="wrapper">
+
+
+    <header class="inner">
+
+        <div class="center">
+
+            <div class="logo-inner pull-left"><a href="#"><img src="Common/images/logo-inner.png" alt=""/></a></div>
+
+            <div class="search-bar pull-left">
+                <input type="search" placeholder="Search"/>
+                <span class="sprite"></span>
+            </div>
+
+            <div class="logged-in-menu  pull-right">
+
+                <ul class="list-unstyled">
+                    <li class="me">
+                        <span class="sprite"></span>
+                        <a href="#">Shuja</a>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="friends"><a class="sprite" href="javascript:void(0)"></a>
+
+                        <div class="sub-menu">
+                            <h4>Friends</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><img src="Common/images/user.png" alt=""/> shuja sent you a message</a>
+                                </li>
+                                <li><a href="#"><img src="Common/images/user.png" alt=""/> shuja sent you a message</a>
+                                </li>
+                                <li class="last"><a href="#">See all messages</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+
+
+                    <li class="messages"><a class="sprite" href="#"></a>
+
+                        <div class="sub-menu">
+                            <h4>Messages</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><img src="Common/images/user.png" alt=""/> shuja sent you a message</a>
+                                </li>
+                                <li><a href="#"><img src="Common/images/user.png" alt=""/> shuja sent you a message</a>
+                                </li>
+                                <li class="last"><a href="#">See all messages</a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </li>
+                    <li class="notification"><a class="sprite" href="#"></a></li>
+                    <li class="dropdown"><a class="sprite" href="#"></a></li>
+                </ul>
+
+            </div>
+
+
+            <a href="#" class="feedback desktop btn-round"><span>Feedback</span></a>
+
+
+        </div>
+    </header>
+
+
+    <section>
+        <div class="center">
+            <div class="profile-info">
+                <h2>Contact Us</h2>
+                <ul class="list-unstyled">
+                    <li class="error"><label for="name">Full Name*</label><input placeholder="Full Name*" type="text" id="name"/></li>
+                    <li><label for="user-name">Email*</label><input placeholder="Email*" type="email" id="user-name"/>
+                    </li>
+                    <li><label for="num">Contact Number</label><input placeholder="Contact Number*" type="number"
+                                                                      id="num"/></li>
+                    <li><label for="location">Location</label><input placeholder="Location" type="text" id="location"/>
+                    </li>
+                    <li><label for="fashion">Your Query*</label><textarea class="query" placeholder="Me & Fashion"
+                                                                          id="fashion"></textarea></li>
+
+                </ul>
+
+
+                <div class="btn-group">
+                    <a class="btn btn-purple btn-small pull-right" href="#"><span class="sprite"></span>Submit</a>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="map">
+                <p>Feel free to drop by for a coffee with our team!</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26081603.294420436!2d-95.677068!3d37.06250000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1414346844965"
+                        frameborder="0" style="border:0"></iframe>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="center">
+            <p class="pull-left">Copyright 2014 TopShou | All Rights Reserved</p>
+
+
+            <div class="social-icons pull-left"><a class="sprite tw" href="#"></a><a class="sprite fb" href="#"></a><a
+                    class="sprite gp"
+                    href="#"></a></div>
+
+
+            <a class="logo desktop pull-right" href="#">
+                <img src="Common/images/logo_footer.jpg" alt=""/>
+            </a>
+        </div>
+    </footer>
+
+</div>
+
+
+<!--scripts-->
+<script src="Common/js/vendor/jquery-1.10.1.min.js"></script>
+<script src="Common/js/vendor/modernizr.custom.71422.js"></script>
+<script src="Common/js/vendor/masanory.min.js"></script>
+<script src="Common/js/vendor/jquery.bxslider.min.js"></script>
+<script src="Common/js/default.js"></script>
+<script>
+    if (window.location.hash.search("debug=true") > 0) {
+//        document.write('<script src="Common/js/debug/console_log.js"><\/script>');
+        document.write('<script src="//localhost:35729/livereload.js"><\/script>');
+        document.write('<link rel="stylesheet" type="text/css" href="Common/css/debug/debug.css">');
+    }
+</script>
+<!--scripts ends-->
+</body>
+</html>
